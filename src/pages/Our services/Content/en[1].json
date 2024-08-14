@@ -1,0 +1,236 @@
+{
+    "our_services": {
+      "title": "OUR SERVICES",
+      "content": {
+       "1" :"B2B e-commerce/e-sourcing Marketplace",
+       "2" :"Digital marketing services",
+       "3" :"Promotion and visibility of products and services",
+       "4": "Online sales coming soon"
+      }
+       
+      
+    },
+    "digital_marketing_service": {
+      "title": "Digital Marketing Service via Subscription Packs",
+      "content": "Temacina.Com offers several advertising spaces and tools via a subscription system with different periods. Subscription rates are displayed on the Subscription page:",
+      "packages": {
+        "free": "Free: Minimum service granted for 12 months.",
+        "starter": "Starter: Service with more benefits for 3, 6, or 12 months.",
+        "silver": "Silver: Service with more benefits for 3, 6, or 12 months.",
+        "gold": "Gold: Service with more benefits for 3, 6, or 12 months."
+      },
+      "details": "Temacina.com's Digital Marketing includes all marketing strategies and tactics used to promote a company's products or services online for the Algerian, African, and global markets. Our services include:",
+      "services": {
+      "1"  :"Creating and managing online advertising campaigns",
+      "2"  :"SEO to improve search engine visibility",
+       "3": "Email marketing to target prospects and existing customers",
+       "4" :"Social media management to engage with the online community"
+      }
+    },
+    "advertising_and_sponsorship_service": {
+      "title": "Advertising and Sponsorship Service",
+      "ad_spaces":"Homepage,  Search Results Pages,   Category Pages Product Detail Pages",
+      "ad_types": "Banner ads,  Carousel or slide ads,  In-content ads,        Video ads,Native ads"
+      
+    },
+    "online_sales_service": {
+      "title": "Online Sales Service for Intra-Company Transactions",
+      "markets": {
+       "1": "Local B2B Market in Algerian Dinar",
+        "2":"International B2B Global Import/Export Market in Dollar",
+        "3":" Targeted Companies: Startups, TPEs, SMEs, SMIs, and Large Companies "
+      }
+    
+    },
+    "sectors": {
+      "title": "OUR SECTORS",
+      "description": "Temacina.Com is a vertical marketplace specializing in four key sectors: Industry, Agriculture, Construction, and I-Tech. We are committed to providing tailored solutions for each sector, fostering the growth and development of businesses in a secure and efficient digital environment. As a leader in our field, we are determined to create opportunities for success for our business partners, contributing to boosting the Algerian economy on the global stage."
+    },
+    "industry": {
+      "title": "Industry",
+      "description": "Temacina.Com Our platform offers a variety of industrial products, such as machinery, equipment, construction materials, and more, facilitating exchanges between local industry players.",
+      "categories": {
+      "1":  "Mechanical and Boilermaking Industry",
+      "2" : "Household Appliances",
+      "3" : "Electrical",
+      "4" : "Electronics",
+      "5" : "Automotive",
+       "6": "Truck",
+       "7": "Accessories and Tools",
+       "8": "Cosmetics",
+       "9": "Hygiene",
+       "10": "Detergent",
+       "11": "Wood and Plastic",
+       "12": "Textiles and Manufacturing",
+       "13": "Petrochemical Industry",
+       "14": "Craft Industry",
+       "15": "Startups",
+       "16": "Industry 4.0"
+      }
+    },
+    "agriculture": {
+      "title": "Agriculture",
+      "description": "Temacina.Com We connect agricultural suppliers, cooperatives, and agri-food companies, offering a complete range of agricultural products, from seeds to finished products, to meet local market needs.",
+      "categories": {
+        "1":"Livestock and Equipment",
+        "2":"Storage, Handling and Transport",
+        "3":"Equipment for the Agri-food Industry",
+        "4":"Animal Production and Feed",
+        "5":"Agri-food",
+        "6":"Production and Sale of Packaging Products",
+        "7":"Packaging and Conditioning Equipment",
+        "8":"Startups",
+        "9":"Agricultural Equipment and Material",
+        "10":"Plant Production"
+      }
+    },
+    "construction": {
+      "title": "Construction",
+      "description": "Temacina.Com We offer a multitude of products and services related to the construction sector, including construction materials, site equipment, engineering and consulting services, fostering project development across the country.",
+      "categories": {
+       "1": "Construction Plants and Materials",
+        "2":"Site Equipment and Material",
+       "3": "Interiors and Coatings",
+       "4": "Construction Contractors and Project Managers",
+       "5": "Public Works and Hydraulics",
+        "6":"Smart Building",
+        "7":"Startups",
+       "8": "Exterior and Coatings",
+       "9": "Electrical Installation and Equipment",
+       "10": "Manufacturing and Processing"
+      }
+    },
+    "i_tech": {
+      "title": "I-Tech (Information and Communication Technology)",
+      "description": "Temacina.Com We facilitate exchanges in the technology sector by connecting companies specializing in software, IT services, telecommunications solutions, and other I-Tech products and services, contributing to Algeria's digital transformation.",
+      "categories": {
+        "1":"Big Data and Economic Intelligence",
+        "2":"Unmanned Systems and Solutions",
+        "3":"Virtual and Augmented Reality",
+       "4": "Startups",
+       "5": "Artificial Intelligence",
+       "6": "E-Technologies",
+       "7": "Internet of Things",
+       "8": "Digital Enterprise",
+       "9": "Data Center Infrastructure",
+       "10": "Networks and Communication",
+       "11": "Security Systems"
+      }
+    },
+    "why_choose_us": {
+      "title": "WHY CHOOSE Temacina.Com?",
+      "reasons": {
+       "1": "Reliability and Security: Secure and reliable transactions",
+      "2" : "International Visibility: Access to a global market",
+      "3" : "Personalized Support: Dedicated assistance to maximize your success",
+      "4" : "Direct Contact: Instant messaging and online chat for information exchanges, quote requests, negotiations, and additional information"
+      }
+    },
+    "values": {
+      "title": "OUR VALUES",
+      "values": "Innovation, Integrity, Excellence,Customer Service"
+    },
+    "register_and_subscribe": {
+      "title": "REGISTER AND PURCHASE SUBSCRIPTION PACKS",
+      "benefits": {
+      "1" : "Maximum Visibility: Increase your products' visibility to a global audience",
+      "2"  :"Targeted Marketing: Access sophisticated marketing tools to promote your products",
+      "3" : "Networking Opportunities: Connect with potential business partners worldwide",
+      "4"  :"Support and Assistance: Benefit from dedicated customer support to maximize your sales opportunities"
+      }
+    },
+    "visiting_sellers_and_buyers": {
+      "title": "VISITING SELLERS AND BUYERS",
+      "benefits": {
+       "1": "Global Visibility: Increase your products' visibility on an international platform, reaching potential buyers worldwide",
+       "2": "Marketing Support: Take advantage of our sophisticated marketing services to promote your products and increase sales",
+       "3": "Networking Opportunities: Connect with other companies and potential business partners worldwide",
+       "4": "Security and Reliability: Enjoy secure and reliable transactions, ensuring the protection of your data and financial transactions",
+       "5": "Access to Instant Messaging and Online Chat: Facilitate information exchanges, quote requests, negotiations, and obtain additional information with our real-time communication tools",
+       "6": "Early Benefits: As an early subscriber, enjoy exclusive benefits such as preferential rates, personalized services, and increased visibility"
+      }
+    },
+    "subscribed_sellers_and_buyers": {
+      "title": "SUBSCRIBED SELLERS AND BUYERS",
+      "benefits": {
+       "1": "Continuous Growth: We continuously invest in marketing to attract new buyers and increase your customer base",
+       "2": "Feedback and Improvement: Your feedback is essential to us. We constantly improve our platform to meet your needs and optimize your user experience"
+      }
+    },
+    "online_sales": {
+      "title": "ONLINE SALES",
+      "description": "Take advantage of our next development phase, which will include online sales services, opening up new growth opportunities and diversifying your sales channels.",
+      "benefits": {
+      "1"  :"Dedicated Customer Support: Benefit from dedicated customer support to answer all your questions and help you maximize your sales opportunities",
+      "2" : "Collaboration Opportunities: Participate in collaborative initiatives with other companies and partners to strengthen your market position"
+        }
+    },
+    "online_sales_with_payment_methods": {
+      "title": "ONLINE SALES WITH GLOBAL PAYMENT METHODS",
+      "description": "After the initial marketing phase, we will launch online sales services to offer even more growth opportunities to our sellers.",
+      "online_sales_services": {
+"title":"Online Sales Services",
+      "beniefts": {
+       "1" :"Online Sales Platform: Offer your products directly on our platform with an intuitive and user-friendly interface",
+       "2" :"Order Management: Track and manage orders in real-time, with instant notifications for each new order",
+       "3" :"Online Inventory: Manage inventory with automatic updates to ensure product availability",
+      "4" : "Warranty Service: Offer your customers peace of mind with a warranty on sold products",
+      "5"  :"After-Sales Service: Provide after-sales support to resolve any issues or answer customer questions",
+      "6" : "Dispute Management: An effective system to manage and resolve disputes between sellers and buyers",
+      "7" : "Refund Policy: Ensure a clear and fair refund policy to maintain customer satisfaction"
+        } }
+    },
+    "global_payment_methods": {
+      "title": "GLOBAL ONLINE PAYMENT METHODS",
+      "methods": {
+       "1": "Visa and MasterCard: Accept credit and debit card payments from major global brands",
+       "2": "American Express: Facilitate transactions for customers using American Express cards",
+       "3": "PayPal: Offer a secure and popular payment option via PayPal, allowing for fast and secure transactions",
+       "4": "Bank Transfer: Accept bank transfer payments for national and international transactions",
+       "5": "Other Payment Methods: Integrate additional payment methods to cater to specific markets or customer preferences"
+      }
+    },
+    "payment_methods_in_algeria": {
+      "title": "PAYMENT METHODS IN ALGERIA",
+      "methods": {
+        "1": "Cash Payment: Mainly used for retail transactions and small amounts",
+        "2": "Bank Transfer: Common for business transactions, salary payments, and bill payments",
+        "3": "Check: Used for business transactions and service payments",
+        "4": "Bank Card: CIB (Interbank Card) and Edahabia Cards (issued by Algeria Post)",
+        "5": "Mobile Payment: BaridiMob (Algeria Post), applications from certain banks",
+        "6": "Electronic Wallet (e-wallet): Several banks and telecommunications companies offer e-wallet services",
+        "7": "Cash on Delivery: Mainly for online purchases",
+        "8": "Direct Debit: Used for recurring payments such as electricity, water, and phone bills"
+      }
+    },
+    "benefits_for_sellers": {
+      "title": "BENEFITS FOR SELLERS",
+      "benefits": {
+        "1": "Increased Sales: Access to a wider audience and the ability to sell your products directly online",
+        "2": "Payment Flexibility: Offer multiple payment options to attract a diverse clientele and increase sales conversion",
+        "3": "Improved Customer Experience: Facilitate the buying process for your customers with secure and convenient payment options",
+        "4": "Continuous Support: Benefit from our customer support to manage transactions and resolve any payment-related issues",
+        "5": "After-Sales Service and Warranty: Offer a warranty and after-sales support to improve customer satisfaction and loyalty",
+        "6": "Dispute and Refund Management: A transparent and effective system to manage disputes and refunds, ensuring customer trust and satisfaction"
+      }
+    },
+    "benefits_for_buyers": {
+      "title": "BENEFITS FOR BUYERS",
+      "benefits": {
+        "1": "Wide Product Selection: Access a wide range of products from different sellers worldwide",
+        "2": "Easy Comparison: Easily compare products and prices to make informed purchases",
+        "3": "Secure Payments: Enjoy various secure payment options, including Visa, MasterCard, American Express, PayPal, CIB, Edahabia Card, and bank transfer",
+        "4": "Instant Messaging and Online Chat: Communicate directly with sellers to obtain additional information, quotes, and negotiate purchase terms",
+        "5": "Product Warranty: Buy with confidence with product warranties",
+        "6": "After-Sales Support: Enjoy after-sales support to resolve any issues or answer your questions",
+        "7": "Dispute and Refund Management: An effective system to manage disputes and refunds, ensuring a worry-free shopping experience",
+        "8": "Exclusive Promotions and Offers: Access exclusive promotions and offers reserved for Temacina.Com users"
+      }
+    },
+    "join_us": {
+      "title": "JOIN US",
+      "content":"Contact us for more information and discover how Temacina.Com can transform your business into a global digital enterprise using the latest online sales technologies and having your own online store,Commitment to the Future: Together, let's build a future where B2B commerce is easier, faster, and more efficient."
+      
+    }
+  }
+  
