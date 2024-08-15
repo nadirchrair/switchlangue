@@ -1,0 +1,64 @@
+{
+    "header": {
+      "title": "Welcome to Temacina.Com",
+      "subtitle": "Algerian Digital Marketplace for Global B2B e-Commerce and e-Sourcing",
+      "founder": {
+        "name": "Mr. Mustapha FAROUROU",
+        "title": "Expert in New Technology and Specialist in Global Digital Business",
+        "linkedin": "https://www.linkedin.com/in/mustapha-farourou"
+      }
+    },
+    "introduction": {
+      "title": "Welcome to Temacina.Com",
+      "content": "We are delighted to offer you an Innovative Digital Marketplace in Global B2B eCommerce / eSourcing. Our goal is to facilitate your business relationships and B2B transactions, promoting your Products and Services to and from the Algerian, African, and international markets.",
+      "quote": {
+        "text": "I chose the name of our marketplace \"Temacina.Com\" based on the name of my hometown, Temacine, located in the wilaya of Touggourt, within the oasis of Oued Righ in Algeria.",
+        "author": "Mr. Mustapha Farourou"
+      }
+    },
+    "mission": {
+      "title": "OUR MISSION",
+      "content": "To facilitate global eCommerce and eSourcing between Algerian, African, and global companies in import/export.",
+      "items": {
+        
+          "title": "Local B2B eSourcing",
+          "description": "Temacina.Com connects Algerian companies on the local market in Dinars, covering various sectors essential to the Algerian economy. We focus on specific sectors, providing a specialized platform for Algerian companies to thrive in today's global economy."
+      },
+      "items2":{
+          "title": "International B2B eSourcing",
+          "description": "Temacina.Com broadens the horizons of Algerian companies by facilitating international exchanges in Dollars. We connect Algerian companies with foreign partners, promoting the export and import of products and services."
+        }
+      },
+      
+    
+    "vision": {
+      "title": "OUR VISION",
+      "content": "To become the leading Algerian Digital Marketplace for B2B commerce in Algeria, Africa, and globally."
+    },
+    "cta": {
+      "title": "CALL TO ACTION",
+      "buttons": 
+        {
+          "text": "Register today and start benefiting from our innovative platform: ",
+          "link": "register Now"
+        }
+      ,
+      "links": 
+        {
+          "text": "For additional information or online assistance, click the following link:",
+          "href": " Contact Us"
+        },
+        "links1": 
+   
+        {
+          "text": "For information with the sales team via WhatsApp, click the following link: ",
+          "href": "WhatsApp Contact"
+        },
+        "links2": 
+        {
+          "text": "For information with the sales team via WeChat, click the following link: ",
+          "href": "WeChat Contact"
+        }
+      
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "header": {
+      "title": "Bienvenue sur Temacina.Com",
+      "subtitle": "Marketplace Digitale Algérienne de e-Commerce et e-Sourcing B2B Mondial",
+      "founder": {
+        "name": "Monsieur Mustapha FAROUROU",
+        "title": "Expert en Nouvelle Technologie et Spécialiste en Digital Business Mondial",
+        "linkedin": "https://www.linkedin.com/in/mustapha-farourou"
+      }
+    },
+    "introduction": {
+      "title": "Bienvenue sur Temacina.Com",
+      "content": "Nous sommes ravis de vous offrir une Marketplace Digitale Innovante dans l’eCommerce / eSourcing B2B Mondial. Notre objectif est de faciliter vos relations commerciales et vos transactions B2B, et de promouvoir vos Produits et Services depuis et vers le marché Algérien, Africain et sur la scène internationale.",
+      "quote": {
+        "text": "J'ai choisi le nom de notre marketplace \"Temacina.Com\" en référence à ma ville natale, Temacine, située dans la wilaya de Touggourt, au sein de l'oasis de Oued Righ en Algérie.",
+        "author": "Monsieur Mustapha Farourou"
+      }
+    },
+    "mission": {
+      "title": "NOTRE MISSION",
+      "content": "Faciliter le eCommerce et l'approvisionnement (eSourcing) mondial entre les entreprises algériennes, africaines et mondiales dans l'import/export.",
+      "items": 
+        {
+          "title": "eSourcing B2B Local",
+          "description": "Temacina.Com met en relation les entreprises algériennes sur le marché local en Dinar, couvrant divers secteurs d'activité essentiels à l'économie algérienne. Nous nous concentrons sur des secteurs spécifiques, offrant ainsi aux entreprises algériennes une plateforme spécialisée pour prospérer dans l'économie mondiale d'aujourd'hui."
+        },
+        "items2":    {
+          "title": "eSourcing B2B International",
+          "description": "Temacina.Com élargit les horizons des entreprises algériennes en facilitant les échanges internationaux en Dollar. Nous mettons en relation les entreprises algériennes avec des partenaires étrangers, facilitant ainsi l'exportation et l'importation de produits et services."
+        }
+      
+    },
+    "vision": {
+      "title": "NOTRE VISION",
+      "content": "Devenir la Marketplace Digitale algérienne de référence pour le commerce interentreprises en Algérie, en Afrique et dans le monde."
+    },
+    "cta": {
+      "title": "APPEL À L'ACTION",
+      "buttons": 
+        {
+          "text": "Inscrivez-vous dès aujourd'hui",
+          "link": "register"
+        }
+      ,
+      "links": 
+        {
+          "text": "Pour toute information supplémentaire ou assistance en ligne, cliquez sur le lien suivant : ",
+          "href": "Contactez-nous"
+        },
+        "links1": 
+        {
+          "text": "Pour toute information avec l’équipe commerciale via WhatsApp, cliquez sur le lien suivant :",
+          "href": "Contact WhatsApp"
+        },
+        "links2": 
+        {
+          "text": "Pour toute information avec l’équipe commerciale via WeChat, cliquez sur le lien suivant :",
+          "href": " Contact WeChat"
+        }
+      
+    }
+  }
+  
