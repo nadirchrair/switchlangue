@@ -199,8 +199,8 @@ const OurServices = () => {
       <li>{t('benefits_for_buyers.benefits.5')}</li>
       <li>{t('benefits_for_buyers.benefits.6')}</li>
       <li>{t('benefits_for_buyers.benefits.7')}</li>
-      <li>{t('benefits_for_buyers.benefits.8')}</li>    </ul>
-
+      <li>{t('benefits_for_buyers.benefits.8')}</li>   
+       </ul>
       <h3>{t('join_us.title')}</h3>
       <p>{t('join_us.content')}</p>
      
