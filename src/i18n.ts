@@ -2,13 +2,14 @@ import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import en from '../src/pages/Temacina/Content/en[1].json';
 import fr from '../src/pages/Temacina/Content/fr[1].json';
-
+import ar from '../src/pages/Temacina/Content/ar[1].json'
 i18n
   .use(initReactI18next)
   .init({
     resources: {
       en: { translation: en },
       fr: { translation: fr },
+      ar:{ translation: ar },
     },
     lng: 'en', // Default language
     fallbackLng: 'en',
