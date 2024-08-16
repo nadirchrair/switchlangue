@@ -1,0 +1,233 @@
+{
+    "our_services": {
+      "title": "NOS SERVICES",
+      "content": {
+       "1" :"Marketplace de e-commerce/e-sourcing B2B",
+       "2" :"Services de marketing digital",
+       "3" :"Promotion et visibilité des produits et services",
+       "4": "Ventes en ligne bientôt disponibles"
+      }
+    },
+    "digital_marketing_service": {
+      "title": "Service de Marketing Digital via des Packs d'Abonnement",
+      "content": "Temacina.Com offre plusieurs espaces publicitaires et outils via un système d'abonnement avec différentes périodes. Les tarifs des abonnements sont affichés sur la page d'abonnement :",
+      "packages": {
+        "free": "Gratuit : Service minimum accordé pour 12 mois.",
+        "starter": "Starter : Service avec plus d'avantages pour 3, 6 ou 12 mois.",
+        "silver": "Silver : Service avec plus d'avantages pour 3, 6 ou 12 mois.",
+        "gold": "Gold : Service avec plus d'avantages pour 3, 6 ou 12 mois."
+      },
+      "details": "Le marketing digital de Temacina.com comprend toutes les stratégies et tactiques marketing utilisées pour promouvoir les produits ou services d'une entreprise en ligne pour les marchés algérien, africain et mondial. Nos services incluent :",
+      "services": {
+        "1"  :"Création et gestion de campagnes publicitaires en ligne",
+        "2"  :"SEO pour améliorer la visibilité sur les moteurs de recherche",
+        "3": "Marketing par e-mail pour cibler les prospects et les clients existants",
+        "4" :"Gestion des réseaux sociaux pour engager la communauté en ligne"
+      }
+    },
+    "advertising_and_sponsorship_service": {
+      "title": "Service de Publicité et de Sponsoring",
+      "ad_spaces":"Page d'accueil, Pages de résultats de recherche, Pages de catégories, Pages de détails des produits",
+      "ad_types": "Bannières publicitaires, Carrousels ou publicités à défilement, Publicités dans le contenu, Publicités vidéo, Publicités natives"
+    },
+    "online_sales_service": {
+      "title": "Service de Ventes en Ligne pour les Transactions Intra-Entreprises",
+      "markets": {
+        "1": "Marché B2B local en dinar algérien",
+        "2":"Marché mondial d'import/export B2B en dollar",
+        "3":"Entreprises ciblées : Startups, TPE, PME, PMI et grandes entreprises"
+      }
+    },
+    "sectors": {
+      "title": "NOS SECTEURS",
+      "description": "Temacina.Com est une marketplace verticale spécialisée dans quatre secteurs clés : Industrie, Agriculture, Construction et I-Tech. Nous nous engageons à fournir des solutions sur mesure pour chaque secteur, favorisant la croissance et le développement des entreprises dans un environnement numérique sécurisé et efficace. En tant que leader dans notre domaine, nous sommes déterminés à créer des opportunités de succès pour nos partenaires commerciaux, contribuant à dynamiser l'économie algérienne sur la scène mondiale."
+    },
+    "industry": {
+      "title": "Industrie",
+      "description": "Temacina.Com offre une variété de produits industriels, tels que des machines, équipements, matériaux de construction, et plus encore, facilitant les échanges entre les acteurs locaux de l'industrie.",
+      "categories": {
+        "1":  "Industrie mécanique et chaudronnerie",
+        "2" : "Électroménager",
+        "3" : "Électrique",
+        "4" : "Électronique",
+        "5" : "Automobile",
+        "6": "Camion",
+        "7": "Accessoires et outils",
+        "8": "Cosmétiques",
+        "9": "Hygiène",
+        "10": "Détergents",
+        "11": "Bois et plastique",
+        "12": "Textiles et confection",
+        "13": "Industrie pétrochimique",
+        "14": "Artisanat",
+        "15": "Startups",
+        "16": "Industrie 4.0"
+      }
+    },
+    "agriculture": {
+      "title": "Agriculture",
+      "description": "Temacina.Com connecte les fournisseurs agricoles, coopératives et entreprises agroalimentaires, offrant une gamme complète de produits agricoles, des semences aux produits finis, pour répondre aux besoins du marché local.",
+      "categories": {
+        "1":"Élevage et équipements",
+        "2":"Stockage, manutention et transport",
+        "3":"Équipements pour l'industrie agroalimentaire",
+        "4":"Production animale et alimentation",
+        "5":"Agroalimentaire",
+        "6":"Production et vente de produits d'emballage",
+        "7":"Équipements de conditionnement et d'emballage",
+        "8":"Startups",
+        "9":"Matériel et équipements agricoles",
+        "10":"Production végétale"
+      }
+    },
+    "construction": {
+      "title": "Construction",
+      "description": "Temacina.Com offre une multitude de produits et services liés au secteur de la construction, incluant des matériaux de construction, équipements de chantier, services d'ingénierie et de conseil, favorisant le développement de projets à travers le pays.",
+      "categories": {
+        "1": "Usines et matériaux de construction",
+        "2":"Équipements et matériel de chantier",
+        "3": "Intérieurs et revêtements",
+        "4": "Entrepreneurs en construction et chefs de projet",
+        "5": "Travaux publics et hydraulique",
+        "6":"Bâtiment intelligent",
+        "7":"Startups",
+        "8": "Extérieurs et revêtements",
+        "9": "Installation et équipement électrique",
+        "10": "Fabrication et traitement"
+      }
+    },
+    "i_tech": {
+      "title": "I-Tech (Technologie de l'Information et de la Communication)",
+      "description": "Temacina.Com facilite les échanges dans le secteur technologique en connectant les entreprises spécialisées dans les logiciels, services informatiques, solutions de télécommunications et autres produits et services I-Tech, contribuant à la transformation numérique de l'Algérie.",
+      "categories": {
+        "1":"Big Data et intelligence économique",
+        "2":"Systèmes et solutions sans pilote",
+        "3":"Réalité virtuelle et augmentée",
+        "4": "Startups",
+        "5": "Intelligence artificielle",
+        "6": "E-Technologies",
+        "7": "Internet des objets",
+        "8": "Entreprise numérique",
+        "9": "Infrastructure de centres de données",
+        "10": "Réseaux et communication",
+        "11": "Systèmes de sécurité"
+      }
+    },
+    "why_choose_us": {
+      "title": "POURQUOI CHOISIR Temacina.Com ?",
+      "reasons": {
+        "1": "Fiabilité et sécurité : Transactions sécurisées et fiables",
+        "2" : "Visibilité internationale : Accès à un marché mondial",
+        "3" : "Support personnalisé : Assistance dédiée pour maximiser votre succès",
+        "4" : "Contact direct : Messagerie instantanée et chat en ligne pour des échanges d'informations, demandes de devis, négociations et informations supplémentaires"
+      }
+    },
+    "values": {
+      "title": "NOS VALEURS",
+      "values": "Innovation, Intégrité, Excellence, Service client"
+    },
+    "register_and_subscribe": {
+      "title": "INSCRIVEZ-VOUS ET ACHETEZ DES PACKS D'ABONNEMENT",
+      "benefits": {
+        "1" : "Visibilité maximale : Augmentez la visibilité de vos produits à un public mondial",
+        "2"  :"Marketing ciblé : Accédez à des outils de marketing sophistiqués pour promouvoir vos produits",
+        "3" : "Opportunités de réseautage : Connectez-vous avec des partenaires commerciaux potentiels dans le monde entier",
+        "4"  :"Support et assistance : Bénéficiez d'un support client dédié pour maximiser vos opportunités de vente"
+      }
+    },
+    "visiting_sellers_and_buyers": {
+      "title": "VISITE DES VENDEURS ET ACHETEURS",
+      "benefits": {
+        "1": "Visibilité mondiale : Augmentez la visibilité de vos produits sur une plateforme internationale, atteignant des acheteurs potentiels dans le monde entier",
+        "2": "Support marketing : Profitez de nos services de marketing sophistiqués pour promouvoir vos produits et augmenter vos ventes",
+        "3": "Opportunités de réseautage : Connectez-vous avec d'autres entreprises et partenaires commerciaux potentiels dans le monde entier",
+        "4": "Sécurité et fiabilité : Bénéficiez de transactions sécurisées et fiables, assurant la protection de vos données et de vos transactions financières",
+        "5": "Accès à la messagerie instantanée et au chat en ligne : Facilitez les échanges d'informations, les demandes de devis, les négociations et obtenez des informations supplémentaires grâce à nos outils de communication en temps réel",
+        "6": "Avantages précoces : En tant qu'abonné précoce, bénéficiez d'avantages exclusifs tels que des tarifs préférentiels, des services personnalisés et une visibilité accrue"
+      }
+    },
+    
+      "subscribed_sellers_and_buyers": {
+        "title": "VENDEURS ET ACHETEURS ABONNÉS",
+        "benefits": {
+          "1": "Croissance Continue : Nous investissons continuellement dans le marketing pour attirer de nouveaux acheteurs et augmenter votre base de clients.",
+          "2": "Feedback et Amélioration : Votre feedback est essentiel pour nous. Nous améliorons constamment notre plateforme pour répondre à vos besoins et optimiser votre expérience utilisateur."
+        }
+      },
+      "online_sales": {
+        "title": "VENTE EN LIGNE",
+        "description": "Profitez de notre prochaine phase de développement qui inclura des services de vente en ligne, ouvrant de nouvelles opportunités de croissance et de diversification de vos canaux de vente.",
+        "benefits": {
+          "1": "Support Client Dédié : Bénéficiez d'un support client dédié pour répondre à toutes vos questions et vous aider à maximiser vos opportunités de vente.",
+          "2": "Opportunités de Collaboration : Participez à des initiatives de collaboration avec d'autres entreprises et partenaires pour renforcer votre position sur le marché."
+        }
+      },
+      "online_sales_with_payment_methods": {
+        "title": "VENTE EN LIGNE AVEC MODALITÉS DE PAIEMENT MONDIALES",
+        "description": "Après la phase initiale de marketing, nous lancerons des services de vente en ligne pour offrir encore plus de possibilités de croissance à nos vendeurs. Voici les détails de cette phase :",
+        "online_sales_services": {
+          "title": "Services de Vente en Ligne",
+          "benefits": {
+            "1": "Plateforme de Vente en Ligne : Offrez vos produits directement sur notre plateforme avec une interface utilisateur intuitive et conviviale.",
+            "2": "Gestion des Commandes : Suivi et gestion des commandes en temps réel, avec des notifications instantanées pour chaque nouvelle commande.",
+            "3": "Inventaire en Ligne : Gestion de l'inventaire avec des mises à jour automatiques pour assurer la disponibilité des produits.",
+            "4": "Service Garantie : Offrez à vos clients la tranquillité d'esprit avec une garantie sur les produits vendus.",
+            "5": "Service Après-Vente : Fournissez un support après-vente pour résoudre tout problème ou répondre aux questions des clients.",
+            "6": "Gestion des Litiges : Un système efficace pour gérer et résoudre les litiges entre vendeurs et acheteurs.",
+            "7": "Politique de Remboursement : Assurez une politique de remboursement claire et équitable pour maintenir la satisfaction des clients."
+          }
+        }
+      },
+      "global_payment_methods": {
+        "title": "MODALITÉS DE PAIEMENT EN LIGNE MONDIALES",
+        "methods": {
+          "1": "Visa et MasterCard : Acceptez les paiements par carte de crédit et de débit des principales marques mondiales.",
+          "2": "American Express : Facilitez les transactions pour les clients utilisant des cartes American Express.",
+          "3": "PayPal : Offrez une option de paiement sécurisée et populaire via PayPal, permettant des transactions rapides et sûres.",
+          "4": "Virement Bancaire : Acceptez les paiements par virement bancaire pour les transactions nationales et internationales.",
+          "5": "Autres Méthodes de Paiement : Intégrez d'autres méthodes de paiement locales et internationales pour offrir plus de flexibilité à vos clients."
+        }
+      },
+      "payment_methods_in_algeria": {
+        "title": "MODALITÉS DE PAIEMENT EN ALGÉRIE",
+        "methods": {
+          "1": "Paiement en Espèces : Principalement utilisé pour les transactions de détail et les petits montants.",
+          "2": "Virement Bancaire : Fréquent pour les transactions commerciales, paiements de salaires, et règlements de factures.",
+          "3": "Chèque : Utilisé pour les transactions commerciales et les paiements de services.",
+          "4": "Carte Bancaire : Cartes CIB (Carte Interbancaire) et Cartes Edahabia (Émise par Algérie Poste).",
+          "5": "Paiement Mobile : BaridiMob (Algérie Poste), applications de certaines banques.",
+          "6": "Porte-monnaie Électronique (e-wallet) : Plusieurs banques et entreprises de télécommunications proposent des services d'e-wallet.",
+          "7": "Paiement à la Livraison (Cash on Delivery) : Principalement pour les achats en ligne.",
+          "8": "Prélèvement Automatique : Utilisé pour les paiements récurrents comme les factures d'électricité, d'eau, de téléphone."
+        }
+      },
+      "benefits_for_sellers": {
+        "title": "AVANTAGES POUR LES VENDEURS",
+        "benefits": {
+          "1": "Augmentation des Ventes : Accès à un public plus large et possibilité de vendre vos produits directement en ligne.",
+          "2": "Flexibilité de Paiement : Offrir plusieurs options de paiement pour attirer une clientèle diversifiée et augmenter la conversion des ventes.",
+          "3": "Expérience Client Améliorée : Faciliter le processus d'achat pour vos clients avec des options de paiement sécurisées et pratiques.",
+          "4": "Support Continu : Bénéficiez de notre support client pour gérer les transactions et résoudre tout problème lié aux paiements.",
+          "5": "Service Après-Vente et Garantie : Offrez une garantie et un support après-vente pour améliorer la satisfaction et la fidélité des clients.",
+          "6": "Gestion des Litiges et Remboursements : Un système transparent et efficace pour gérer les litiges et les remboursements, assurant la confiance et la satisfaction des clients."
+        }
+      },
+      "benefits_for_buyers": {
+        "title": "AVANTAGES POUR LES ACHETEURS",
+        "benefits": {
+          "1": "Large Sélection de Produits : Accédez à une vaste gamme de produits de différents vendeurs à travers le monde.",
+          "2": "Comparaison Facile : Comparez les produits et les prix facilement pour faire des achats éclairés.",
+          "3": "Paiements Sécurisés : Bénéficiez de diverses options de paiement sécurisées, y compris Visa, MasterCard, American Express, PayPal, CIB, Carte Edahabia et virement bancaire.",
+          "4": "Messagerie Instantanée et Chat en Ligne : Communiquez directement avec les vendeurs pour obtenir des informations supplémentaires, des devis et négocier les termes de l'achat.",
+          "5": "Garantie des Produits : Achetez en toute confiance avec des garanties sur les produits.",
+          "6": "Support Après-Vente : Profitez d'un support après-vente pour résoudre tout problème ou répondre à vos questions.",
+          "7": "Gestion des Litiges et Remboursements : Un système efficace pour gérer les litiges et les remboursements, garantissant une expérience d'achat sans souci.",
+          "8": "Promotions et Offres Exclusives : Accédez à des promotions et des offres exclusives réservées aux utilisateurs de Temacina.Com."
+        }
+      },
+      "join_us": {
+        "title": "NOUS REJOINDRE",
+        "content": "Contactez-nous pour plus d'informations et découvrez comment Temacina.Com peut transformer votre entreprise en une entreprise digitale mondiale en utilisant toutes les dernières technologies de l'information de vente en ligne et avoir votre propre boutique en ligne. Engagement envers l'Avenir : Ensemble, construisons un avenir où le commerce interentreprises est plus facile, plus rapide et plus efficace."
+      }
+    }
+    
