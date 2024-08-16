@@ -3,12 +3,12 @@ import logo from './logo.svg';
 import './App.css';
 import OurServices from './pages/Our services/Ourservices';
 import Tamacina from './pages/Temacina/Tamacina';
-import Gcu from './pages/GCU/Gcu';
+import TermsAndConditions from './pages/GCU/TermsAndConditions';
 
 function App() {
   return (
     <>
-    <Gcu/>
+    <TermsAndConditions/>
     </>
   );
 }
