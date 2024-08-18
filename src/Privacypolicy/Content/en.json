@@ -1,0 +1,427 @@
+{
+    "privacyPolicy": {
+      "title": "Privacy Policy",
+      "intro": "Www.temacina.com",
+      "date": "Thursday July 11, 2024",
+      "mainLanguage": {
+        "title": "Main Language of Our Privacy Policy",
+        "text": "The French language",
+        "note": "In the event of a conflict between the French language and another language of this Privacy Policy, the French version shall prevail."
+      },
+      "sections": {
+        "about": {
+          "title": "About this Privacy Policy",
+          "subsections": {
+            "mainLanguagePolicy": {
+              "title": "Main language of our privacy policy",
+              "text": "In the event of a conflict between the French language and another language of this Privacy Policy, the French version shall prevail."
+            },
+            "presentation": {
+              "title": "Presentation",
+              "text1": "We know that you care about how your personal information is used and shared and this Privacy Policy describes our procedures for collecting and processing your personal information via our Www.temacina.com platform, devices, products, services and applications referred to in this Policy (together, the www.temacina.com ).",
+              "text2": "The Www.temacina.com Marketplace, also known as the 'Algeria Digital Market' or simply, is an Algerian digital marketplace specializing in B2B commerce for the local Algerian market and the global foreign market. It focuses particularly on the Algerian market, but also on the African market in general.",
+              "text3": "We are committed to respecting the privacy and confidentiality of our users' personal information. Our platform facilitates commercial transactions between suppliers ('Sellers') and buyers ('Buyers'). The terms 'Users', 'Platform', 'Marketplace', 'We' or 'Us' refer to Www.temacina.com.",
+              "text4": "Www.temacina.com is intended exclusively for B2B transactions, which means that it is designed to be used by businesses rather than individuals for personal purposes."
+            }
+          }
+        },
+        "headOffice": {
+          "title": "Head Office and Data Controllers",
+          "algeria": {
+            "title": "ALGERIA – ALGIERS",
+            "company": "Company name: Algeria Partners",
+            "address": "Address: Shopping Center – Mohammadia Mall – Algiers- 16058 – Algeria",
+            "phone": "Telephone number Whatsapp: +213 558273327",
+            "website": "Website: https://temacina.com",
+            "email": "Email: contact@temacina.com"
+          },
+          "international": {
+            "title": "INTERNATIONAL - UNITED KINGDOM - LONDON",
+            "company": "Company name: DIGITAL TRADE AND EXPORT Ltd",
+            "address": "Address: 128 City Road – London - United Kingdom",
+            "phone": "Whatsapp Phone Number: +33 6 27 59 26 39",
+            "website": "Website: https://temacina.com",
+            "email": "Email: contact@temacina.com"
+          }
+        },
+        "dataProcessing": {
+          "title": "Details of Data Processing",
+          "typesCollected": {
+            "title": "Types of information collected",
+            "text": "We collect and store all information that you provide to us through the www.temacina.com Services. You may choose not to provide us with certain information, but doing so may deprive you of many of the www.temacina.com Services we offer. We collect various categories of information to facilitate transactions on our Platform, including:",
+            "categories": [
+              "Commercial",
+              "Communication",
+              "The device",
+              "Account",
+              "Marketing and advertising",
+              "E payment",
+              "Location",
+              "Online activities",
+              "Social media accounts",
+              "Contacts",
+              "Transactions"
+            ]
+          },
+          "detailsSupplied": {
+            "title": "Details of information supplied",
+            "text": "Users must provide various information when registering and using the Platform, including:",
+            "details": [
+              "Contact information: name, address, telephone number, e-mail address",
+              "Account information: username, password, account preferences",
+              "Commercial information: company name, registration number, business sector",
+              "Information relating to transactions: details of purchases or sales made on the Platform",
+              "Payment information: credit card details, bank details, etc.",
+              "Content stored on devices: authorization to access data such as contacts, photos, videos, etc.",
+              "Information on interactions at professional events: exchanges at trade fairs and conferences, etc."
+            ]
+          },
+          "automaticallyCollected": {
+            "title": "Automatically collected information",
+            "text": "We automatically collect and store certain types of information about your use of the www.temacina.com Services, including your interaction with the content and services available through the www.temacina.com Services. Like many other websites, we use 'cookies' and other unique identifiers and obtain certain types of information when your browser or device accesses the www.temacina.com Services and other content posted on other websites by or on behalf of www.temacina.com. Some information is collected automatically when you use the Platform, such as:",
+            "details": [
+              "Device information: type of device, IP address, browser used, etc.",
+              "Information on online activity: pages consulted, browsing behavior, etc.",
+              "Location information: geolocation data",
+              "Communication information: messages exchanged on the Platform",
+              "Marketing and advertising information: content and communication preferences",
+              "User-generated content: photos, videos, comments posted on the Platform, etc.",
+              "Other statistical information: Platform usage data"
+            ]
+          },
+          "thirdPartyInformation": {
+            "title": "Information received from third parties",
+            "text": "We also receive information from third parties to improve our services, in particular:",
+            "details": [
+              "Information relating to social media accounts: profile and connection data",
+              "Communication information: correspondence with customer service, user complaints, etc.",
+              "Information provided by third parties to evaluate products/services: expert opinions, external evaluations, etc.",
+              "Information on interactions with other products/services: integrations with other platforms or services"
+            ]
+          },
+          "purposeOfUse": {
+            "title": "Purpose of use",
+            "purposes": [
+              {
+                "title": "Account administration",
+                "text": "We use your information to verify your eligibility to register as a user of the platform - www.temacina.com, in accordance with our Terms of Use. This includes reviewing your identifying information, such as your name, address, telephone number, and assigning secure login credentials. We also develop user profiles to personalize your experience on the platform."
+              },
+              {
+                "title": "Purchase and delivery of products and services",
+                "text": "Your information is used to facilitate the entire transaction process on the platform, from placing an order to delivering the products or services. This includes collecting billing and shipping details, processing payments, and managing returns and refunds. In addition, we provide logistical support to ensure the efficient delivery of products."
+              },
+              {
+                "title": "Communication",
+                "text": "The platform - www.temacina.com facilitates communication between users, including buyers and sellers. We use your information to enable this communication, including the exchange of messages between users and the processing of customer support requests. We take care to secure these communications to protect the confidentiality of the information exchanged. Communicating with you, we use your personal information to communicate with you about the www.temacina.com Services via various channels (e.g. telephone, email, chat)."
+              },
+              {
+                "title": "Voice, image, and camera services",
+                "text": "As part of certain services offered on the platform, such as voice communication or sending photos, we may access your data stored on your device. This may include your contacts, photos, videos, and other multimedia files. This data is only used to provide the services requested and is not stored after use."
+              },
+              {
+                "title": "Recommendations and personalization",
+                "text": "We use your personal information to provide you with personalized recommendations on the platform, such as products or services likely to interest you based on your previous activities. These recommendations are based on recommendation algorithms that analyze your past interactions on the Platform."
+              },
+              {
+                "title": "Marketing and advertising",
+                "text": "The Platform - www.temacina.com uses your information to provide you with personalized advertising based on your preferences and activities on the Platform. These advertisements may appear while you are browsing the Platform or other third-party websites. We use cookies and other tracking technologies to collect information about your browsing habits and interests in order to personalize the advertisements presented to you."
+              },
+              {
+                "title": "Research and development",
+                "text": "Your personal information is used for research and development purposes to improve the www.temacina.com platform. This may include analyzing usage trends, understanding user needs, and developing new features or services. Data collected for research purposes is anonymized and aggregated to protect your privacy."
+              },
+              {
+                "title": "Fraud prevention and credit risks",
+                "text": "We use your personal information to detect and prevent fraud and to assess the credit risks associated with transactions on the platform. This may include analyzing user behavior patterns, verifying payment information, and monitoring suspicious activity."
+              },
+              {
+                "title": "Complying with legal obligations",
+                "text": "We collect and use your personal information to comply with applicable laws and regulations, including those relating to the protection of personal data and the fight against fraud. This may include verifying your identity, collecting billing information for tax purposes, and responding to requests from law enforcement authorities. We use your information to verify your identity and carry out security, KYC (know-your-customer), and anti-money laundering checks in order to create user accounts."
+              },
+              {
+                "title": "Purposes for which we collect your consent",
+                "text": "We may also require you to consent to the processing of your personal information for a specific purpose which we will indicate to you. Where you consent to the processing of your personal information for that specific purpose, you may withdraw your consent at any time and we will cease processing your information for that purpose."
+              },
+              {
+                "title": "International transfers",
+                "text": "When we transfer personal information internationally, we ensure that this information is transferred in compliance with this confidentiality policy and in application of the laws applicable to the protection of personal data. We rely on International RGPD laws."
+              },
+              {
+                "title": "Receiving emails and notifications",
+                "text": "If you do not wish to receive emails or other communications from us, please change the Settings section of Your Account. If you do not wish to receive notifications from us, please change the notification settings on the application or on your device."
+              },
+              {
+                "title": "How long we keep your personal information",
+                "text": "We retain your personal information to enable you to continue to use the www.temacina.com Services, for as long as is necessary to fulfill the relevant purposes as described in this Privacy Policy, for as long as is necessary to comply with any legal obligations, or for any other period that may have been communicated to you or to retain your transaction history to enable you to view your previous orders (and re-order if you wish) and your delivery addresses for such orders and to improve the relevance of the products and content that we recommend to you."
+              },
+              {
+                "title": "Deletion or Cancellation of Your Consent",
+                "text": "Pursuant to applicable law, you have the right to access, modify, rectify, and delete information concerning you, as well as the right to request the portability of such information. You will also have the opportunity to object to the processing of your personal information or to ask us to restrict the processing of your personal information in certain cases. When we ask for your consent to process your personal information for a specific purpose that we communicate to you, where you consent to us processing your personal information for a particular purpose, you may withdraw your consent at any time and we will stop processing your data for that purpose. Please contact us by e-mail: contact@temacina.com."
+              }
+            ]
+          }
+        },
+        "disclosure": {
+          "title": "Disclosure of Personal Information by Sharing or Any Other Means",
+          "users": {
+            "title": "Platform users",
+            "text": "We are committed to ensuring the confidentiality and security of your personal information. However, in the course of our business, we may disclose or share some of your information with third parties in the following circumstances:"
+          },
+          "otherUsers": {
+            "title": "Other Platform Users",
+            "text": "As part of facilitating commercial transactions and communications between users, we may disclose personal information to other users of the Platform where necessary to finalize purchases or to resolve transaction-related issues."
+          },
+          "thirdPartyPartners": {
+            "title": "Third Party Business Partners and Service Providers",
+            "text": "We may engage third-party business partners and service providers to help us provide and improve our services. These partners may include companies that provide complementary services to ours, such as payment solutions, delivery services, marketing and advertising services, and data analysis services. We will only share your personal information with these third parties to the extent necessary to provide the requested services and subject to your consent where required by law."
+          },
+          "marketingPlatforms": {
+            "title": "Marketing and Advertising Platforms and Analytics Service Providers",
+            "text": "We use third-party marketing and advertising platforms and analytics service providers to personalize the content and ads you see when you use our platform. These third parties may collect information about your online activity across different websites and platforms to show you targeted advertisements. We do not control these third parties and you are encouraged to review their privacy policies to understand how they treat your personal information."
+          },
+          "dueDiligence": {
+            "title": "Due Diligence and Audit Service Providers",
+            "text": "As part of our commitment to security and compliance, we may share your personal information with service providers who specialize in corporate due diligence and verification. This may include verifying the identity of users, detecting fraud, and preventing illegal activities."
+          },
+          "paymentProviders": {
+            "title": "Payment Service Providers",
+            "text": "To facilitate financial transactions on our platform, we work with third-party payment service providers. These service providers may collect and process your personal information to authorize payments, prevent fraud, and manage refund requests. Their activities are governed by their own privacy policies, which we encourage you to consult."
+          },
+          "creditRisk": {
+            "title": "Credit Risk Assessment Providers",
+            "text": "In order to ensure the security of our users and prevent financial risks, we may share your personal information with credit risk assessment providers. These providers use sophisticated assessment methods to determine whether a user can be authorized to carry out financial transactions on our platform."
+          },
+          "logisticsPartners": {
+            "title": "Logistics Partners",
+            "text": "To ensure the efficient delivery of products purchased on our platform, we may share your personal information with logistics partners responsible for managing shipments, returns, and product exchanges. These partners are required to comply with the same confidentiality and security standards as we do."
+          },
+          "customsAgents": {
+            "title": "Customs Agents",
+            "text": "When you carry out international transactions, your personal information may be shared with customs agents to facilitate the process of clearing goods through customs."
+          },
+          "cloudComputing": {
+            "title": "Cloud Computing Service Providers",
+            "text": "To ensure the secure storage of your data, we may use cloud computing services provided by third parties. These suppliers are selected for their commitment to data security and confidentiality."
+          },
+          "instantMessaging": {
+            "title": "Instant Messaging Service Providers",
+            "text": "Our platform may include an instant messaging service to facilitate communication between buyers and sellers. Information exchanged via this service, including messages and files, may be collected and stored by our IT team as part of our security, risk control, and compliance activities."
+          },
+          "sdkProviders": {
+            "title": "Software Development Kit (\"SDK\") Service Providers",
+            "text": "As part of the development and improvement of our platform, we may integrate SDK services provided by third parties. These SDKs may collect information about your use of the platform for analysis and optimization purposes."
+          },
+          "customerService": {
+            "title": "Customer Service Providers",
+            "text": "In order to respond to your support and after-sales service requests, we may share your personal information with customer service providers. These service providers are trained to handle your requests efficiently and securely."
+          },
+          "riskControl": {
+            "title": "Risk Control Service Providers",
+            "text": "In order to protect our users against fraud and suspicious activity, we may share your personal information with service providers specializing in risk control. These service providers use advanced techniques to detect and prevent fraudulent behavior on our platform."
+          },
+          "thirdPartyEvaluation": {
+            "title": "Third Party Evaluation and Review Service Providers",
+            "text": "As part of our commitment to continuous improvement of our services, we may share your personal information with independent service providers who evaluate and review the quality of our products and services. Your comments and suggestions are valuable to us and help improve your user experience."
+          },
+          "externalAdvisors": {
+            "title": "External Professional Advisers and Other Organizations",
+            "text": "In addition to the categories mentioned above, we may also disclose your personal information to the following categories, where necessary to comply with applicable laws, exercise, establish or defend our legal rights, or protect your vital interests or those of any other person:",
+            "advisors": [
+              "External Professional Advisers: Such as lawyers, accountants, and compliance consultants, who help us manage our business and meet our legal and regulatory obligations.",
+              "Law Enforcement Agencies: As part of a criminal investigation or legal proceedings, we may be required to disclose your personal information to the relevant authorities.",
+              "Insurers: To assess and manage the risks associated with our business activities, we may share your personal information with our insurers.",
+              "Governments and Regulators: Where necessary to comply with applicable laws and regulations, we may be required to disclose your personal information to governmental and regulatory authorities.",
+              "Actual or Potential Acquirers of Businesses: In connection with a merger, acquisition, or sale of assets, your personal information may be transferred to actual or potential acquirers as part of the transaction. We undertake to inform the acquirer that your personal information will only be used in accordance with this Privacy Policy."
+            ]
+          },
+          "anonymousData": {
+            "title": "Anonymous Data for Analysis",
+            "text": "In certain cases, we may share anonymous data with third parties for analysis and research purposes. Anonymous data is information that has been rendered anonymous so that it can no longer be associated with you personally. When we share anonymous data, we ensure that no information that could identify you is included."
+          },
+          "thirdParties": {
+            "title": "Third Parties and Partner Websites",
+            "text": "We have established partnerships with third parties and websites to offer you a wide range of products and services. These partners may include third-party companies offering complementary products or services to ours. When you interact with these third parties, your personal information may be collected and used in accordance with their own privacy policies. We encourage you to review the privacy policies of these third parties before sharing your personal information with them."
+          },
+          "instantMessagingService": {
+            "title": "Instant Messaging Service and Online Chat",
+            "text": "Our platform may include an instant messaging service enabling users to communicate with each other. Information exchanged via this service, including messages, files, and media, may be collected and stored by our IT team. This information may be used to respond to user requests, resolve disputes, prevent fraud, and ensure the smooth operation of our platform. The instant messaging service or online chat on the platform will collect your chat information and device information and share a copy of your chat information with us. We will use your chat information for security, risk control, and other compliance requirements based on our platform policies and rules, legal and regulatory requirements, responding to requests from regulatory authorities, providing services (including, but not limited to, processing transactions and resolving disputes between buyers and sellers, handling user complaints) and other analytical and service needs. Please refer to our privacy policy."
+          }
+        },
+        "safeguarding": {
+          "title": "Safeguarding and Conservation",
+          "intro": "We understand the importance of maintaining the confidentiality of your personal information and are committed to keeping it secure and in compliance with applicable laws. Our data retention policy is designed to ensure that we only retain your personal information for as long as is necessary to fulfill the purposes for which it was collected and to comply with our legal and regulatory obligations.",
+          "shelfLife": {
+            "title": "Shelf Life",
+            "text": "We retain your personal information for as long as we have a legitimate business need to do so. This may include the ongoing provision of services or products you have requested, managing business transactions, resolving disputes, preventing fraud, and complying with legal and regulatory requirements such as tax and accounting laws. When we no longer have a legitimate business need to process your personal information, we will securely delete or anonymize it. This may include deleting data from our systems, encrypting sensitive information, or removing personal identifiers to make the data unidentifiable."
+          }
+        },
+        "cookies": {
+          "title": "Cookies and Their Types",
+          "intro": "Cookies are small data files stored on your device when you visit a website. They are widely used to enable websites to function efficiently and to provide a personalized user experience. We use cookies and other similar technologies to recognize your browser or device, to provide and improve our services, and to understand and analyze usage trends.",
+          "types": {
+            "title": "Types of Cookies",
+            "types": [
+              {
+                "title": "Essential cookies",
+                "text": "These cookies are necessary for the operation of our website and enable you to access basic functions such as page navigation and access to secure areas."
+              },
+              {
+                "title": "Performance Cookies",
+                "text": "These cookies help us to understand how you use our website by collecting information about the pages you visit, the time you spend on our site, and any errors you may encounter. This information helps us to improve the performance of our website."
+              },
+              {
+                "title": "Functionality Cookies",
+                "text": "These cookies enable the website to remember the choices you have made (such as your username, language, or region) and provide enhanced and more personalized functionality."
+              },
+              {
+                "title": "Advertising cookies",
+                "text": "These cookies are used to show you advertisements that are relevant to you and your interests. They may also be used to limit the number of times you see an advertisement and to measure the effectiveness of advertising campaigns."
+              }
+            ]
+          },
+          "control": {
+            "title": "Controlling Cookies",
+            "text": "You can control and manage cookies by modifying your browser settings to accept, refuse, or delete cookies. You can also set your browser to notify you each time a cookie is sent. Please note that if you choose to disable cookies, some parts of our website may not function properly."
+          }
+        },
+        "rights": {
+          "title": "Your Rights and Obligations",
+          "intro": "You have the right to request the deletion of your personal information at any time, subject to our legal and regulatory data retention obligations. If you wish to exercise this right, please contact us using the details provided in the Contact section of this Privacy Policy by email: contact@temacina.com. We will respond to your request in a timely manner and in accordance with applicable laws. As a user of our Platform, you have certain data protection rights. We undertake to respect these rights and to provide you with the necessary means to exercise them. Here is an overview of your rights:",
+          "rightsList": [
+            {
+              "title": "The right to access, correct, update, or delete your personal information",
+              "text": "You have the right to request access to your personal information held by us. You may also request to correct, update, or delete any inaccurate or incomplete information."
+            },
+            {
+              "title": "The right to object to the processing of your personal data",
+              "text": "You have the right to object to the processing of your personal data where this is based on our legitimate interests. You also have the right to object to processing for direct marketing purposes."
+            },
+            {
+              "title": "The right to request restriction of processing or portability of your personal information",
+              "text": "In certain circumstances, you have the right to request the restriction of the processing of your personal information or to request the portability of your personal information to another controller."
+            },
+            {
+              "title": "The right to refuse marketing communications",
+              "text": "You have the right to refuse to receive marketing communications from us at any time. You can exercise this right by clicking on the 'unsubscribe' or 'opt-out' link in the marketing emails we send you. To refuse other forms of marketing, please contact us at the following e-mail address: contact@temacina.com"
+            },
+            {
+              "title": "The right to withdraw your consent",
+              "text": "If we have collected and processed your personal information with your consent, you have the right to withdraw that consent at any time. Withdrawal of your consent will not affect the lawfulness of the processing carried out prior to your withdrawal, nor the processing carried out on other legitimate grounds."
+            },
+            {
+              "title": "The right to lodge a complaint with a data protection authority",
+              "text": "If you believe that we have breached your data protection rights, you have the right to lodge a complaint with a competent data protection authority. For more information, please contact your local data protection authority."
+            }
+          ],
+          "complaint": {
+            "title": "Complaints",
+            "text": "We are committed to responding to all requests we receive from individuals wishing to exercise their data protection rights in accordance with applicable laws. If you reside in a jurisdiction that provides for a right of appeal against the refusal of your request to exercise these rights, you may submit your appeal by contacting the following e-mail address: contact@temacina.com"
+          }
+        },
+        "internationalUsers": {
+          "title": "International Users",
+          "intro": "We understand the importance of keeping your personal information confidential, even when it is transferred between different countries. This section explains how we manage international transfers of personal information and the measures we take to ensure the protection of your data.",
+          "storageLocation": {
+            "title": "Storage Location",
+            "text": "We store the personal information we collect on our platform on servers hosted by Google Cloud. Google Cloud offers a secure infrastructure that complies with the highest security standards to ensure the protection of your data."
+          },
+          "internationalTransfers": {
+            "title": "International Transfers",
+            "text": "It is inevitable that some cases will require international transfers of users' personal information between the countries where we operate and where our servers are located, including to the United States where Google Cloud has data centers. These countries have data protection laws that may differ from those in your home country."
+          },
+          "dataProtection": {
+            "title": "Data Protection Guarantees",
+            "text": "We undertake to ensure that such international transfers are carried out only for legitimate purposes and on an appropriate legal basis, or as permitted by applicable law. To ensure that your personal information remains protected during these transfers, we take the following measures:",
+            "measures": [
+              "Recipients' confidentiality obligations: We ensure that the recipients of your personal information are bound by confidentiality obligations similar to those set out in this confidentiality policy.",
+              "Technical and organizational measures: We implement appropriate technical and organizational measures to ensure that your personal information remains protected. This may include data encryption, access and identity management, and continuous system monitoring."
+            ]
+          },
+          "standardContractualClauses": {
+            "title": "Request for a Copy of the Standard Contractual Clauses",
+            "text": "If you would like a copy of the standard contractual clauses we use to govern international transfers of your personal information, please contact us at contact@temacina.com. We will be happy to provide you with the requested information in a timely manner."
+          },
+          "commitment": {
+            "title": "Our Commitment",
+            "text": "We take the protection of your personal information very seriously and are committed to ensuring its security during any international transfer. If you have any questions or concerns about international transfers of personal information, please do not hesitate to contact us."
+          }
+        },
+        "minors": {
+          "title": "Minors",
+          "intro": "We do not sell products to minors. We sell children's products for purchase by adults. If you are under 18, you may use our www.temacina.com platform only under the supervision of a parent or guardian. Protecting the privacy of minors online is very important to us. This section explains our policy regarding the use of the Platform by users under the age of 18 ('minors') and our commitment not to knowingly collect personal information from them.",
+          "accessibility": {
+            "title": "Accessibility of the Platform to Minors",
+            "text": "The Platform is intended for adults and is not designed to be used by minors. We do not deliberately target minors as users of our Platform, and we do not knowingly collect personal information from them."
+          },
+          "dataCollection": {
+            "title": "Data Collection Policy for Minors",
+            "text": "We do not intend to knowingly collect personal information online from minors. If we become aware that a minor has provided us with personal information without the consent of his or her parent or legal guardian, we will take steps to delete that information from our databases as soon as possible. If you believe that we have collected personal information from a minor without parental consent, please contact us at the following e-mail address: contact@temacina.com."
+          },
+          "salesToMinors": {
+            "title": "Sale of Products or Services to Minors",
+            "text": "We do not intend to sell our products or services to minors. If a minor wishes to purchase our products or services, this must be done under the supervision and with the consent of his or her parents or legal guardian."
+          },
+          "parentalConsent": {
+            "title": "Parental Consent",
+            "text": "We encourage parents and legal guardians to monitor their children's use of the Internet and to participate in their online activities by providing them with appropriate privacy guidance and by monitoring access to the Platform and other websites."
+          },
+          "contactForDeleting": {
+            "title": "Contact for Deleting Information",
+            "text": "If you are a parent or legal guardian and you become aware that your child has provided us with personal information without your consent, or if you would like to request the removal of your child's personal information from our databases, please contact us at contact@temacina.com. We will take all necessary steps to respond to your request as quickly as possible."
+          }
+        },
+        "safetyMeasures": {
+          "title": "Safety Measures",
+          "intro": "We attach great importance to the security and confidentiality of the information you entrust to us. This section explains the measures we take to protect your information and ensure that it is used correctly.",
+          "technicalMeasures": {
+            "title": "Technical and Organizational Measures",
+            "text": "We implement appropriate technical and organizational measures to prevent unauthorized access to the Platform, to maintain data accuracy, and to ensure the correct use of the information we hold. This may include the use of firewalls, data encryption, access controls, and physical security measures to protect the servers where your information is stored."
+          },
+          "accountSecurity": {
+            "title": "Security of User Accounts",
+            "text": "For registered users of the Platform, some of your information can be viewed and modified via your account, which is protected by a password. It is your responsibility to keep your password secure and confidential. You must not disclose your password to anyone, including our staff. We will never ask you for your password in an unsolicited telephone call or in an unsolicited e-mail. If you share a computer with other people, you should not save your login information (for example, your user name and password) on that shared computer. We also encourage you to log out of your account and close your browser window when you have finished your session, especially if you are using a shared or public computer."
+          },
+          "dataTransmissionRisks": {
+            "title": "Risks Associated with Online Data Transmission",
+            "text": "No data transmission over the Internet or a wireless network can be guaranteed to be completely secure. Consequently, although we use appropriate technical and organizational measures to protect the information we hold for you, we cannot guarantee the security of any information you transmit to us and you do so at your own risk."
+          },
+          "commitmentToSafety": {
+            "title": "Commitment to Safety",
+            "text": "We undertake to continue to evaluate and improve our security measures to protect your personal information against the risks of loss, misuse, unauthorized access, disclosure, alteration, or destruction."
+          }
+        },
+        "amendments": {
+          "title": "Amendments to the Privacy Policy",
+          "intro": "We are committed to maintaining transparency and informing you of any significant changes to our privacy policy. This section explains how we manage changes to our privacy policy and how we keep you informed of these changes.",
+          "updatingPolicy": {
+            "title": "Updating of the Privacy Policy",
+            "text": "We may update this Privacy Policy from time to time for a variety of reasons, including in response to legal, technical, or business developments in National(Algeria) or internationally. When we make changes to our privacy policy, we will take appropriate steps to notify you."
+          },
+          "notificationOfChanges": {
+            "title": "Notification of Modifications",
+            "text": "We undertake to inform you of any material changes to our privacy policy, depending on the significance of the changes. If a material change is made to this privacy policy that reduces the protection of your personal information collected in the past, we will obtain your consent before implementing these changes."
+          },
+          "publicationOfChanges": {
+            "title": "Publication of the Amended Privacy Policy",
+            "text": "Any changes to this Privacy Policy will be communicated by posting an amended Privacy Policy on the Platform. Once published on the Platform, the new privacy policy will come into force immediately."
+          },
+          "checkLastUpdate": {
+            "title": "Checking the Last Update Date",
+            "text": "You can check when this privacy notice was last updated by checking the 'last updated' date displayed at the top of this privacy notice. This date will tell you when the confidentiality policy was last modified."
+          }
+        },
+        "contactUs": {
+          "title": "How to Contact Us",
+          "intro": "You can exercise your rights after accessing your account. And if you have any requests, questions, or concerns about the use of your personal information and this privacy policy, you can contact our data protection officer at the following address: contact@temacina.com",
+          "info": {
+            "manager": "Manager: Mustapha FAROUROU",
+            "company": "Company name: Algeria Partners",
+            "address": "Address: Centre Commercial - Mohammadia Mall -Algiers- 16058 - Algeria",
+            "phone": "Telephone number Whatsapp: +213 558273327",
+            "email": "E-mail: contact@www.temacina.com"
+          }
+        }
+      }
+    }
+  }
+  

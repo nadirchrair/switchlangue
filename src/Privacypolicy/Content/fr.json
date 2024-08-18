@@ -1,0 +1,426 @@
+{
+    "privacyPolicy": {
+        "title": "POLITIQUE DE CONFIDENTIALITÉ",
+        "intro": "Temacina.com",
+        "date": "Jeudi 11 Juillet 2024",
+        "mainLanguage": {
+            "title": "LANGUE PRINCIPALE DE NOTRE POLITIQUE DE CONFIDENTIALITÉ",
+            "text": "La langue Française",
+            "note": "En cas de conflit entre la langue Française et une autre langue de cette politique de confidentialité, la version Française prévaut."
+        },
+        "sections": {
+            "about": {
+                "title": "À Propos de cette Politique de Confidentialité",
+                "subsections": {
+                    "mainLanguagePolicy": {
+                        "title": "Langue principale de notre politique de confidentialité",
+                        "text": "En cas de conflit entre la langue Française et une autre langue de la présente politique de confidentialité, la version Française prévaut."
+                    },
+                    "presentation": {
+                        "title": "Présentation",
+                        "text1": "Nous savons que vous êtes attentifs à l'utilisation et au partage de vos informations personnelles et cette politique de confidentialité décrit nos procédés de collecte et de traitement de vos informations personnelles via notre plateforme, appareils, produits, services et applications Temacina.com faisant référence à la présente politique (ci-après ensemble les « Temacina.com »).",
+                        "text2": "La Marketplace Temacina.com, également connue sous le nom 'Algeria Digital Market', est une marketplace digitale algérienne spécialisée dans le commerce B2B pour le marché local algérien et le marché étranger mondial. Elle se concentre particulièrement sur le marché algérien, mais aussi sur le marché africain en général.",
+                        "text3": "Nous sommes dévoués au respect de la vie privée et de la confidentialité des informations personnelles de nos utilisateurs. Notre plateforme facilite les transactions commerciales entre les fournisseurs ('Vendeurs') et les acheteurs ('Acheteurs'). Les termes 'Utilisateurs', 'Plateforme', 'Marketplace', 'Nous' ou 'Temacina.com' font référence à Temacina.com.",
+                        "text4": "Temacina.com est destinée exclusivement aux transactions B2B, ce qui signifie qu'elle est conçue pour être utilisée par des entreprises plutôt que des individus à des fins personnelles."
+                    }
+                }
+            },
+            "headOffice": {
+                "title": "Siège Social et Responsables du Traitement",
+                "algeria": {
+                    "title": "ALGÉRIE – ALGER",
+                    "company": "Nom de l'entreprise : Algeria Partners",
+                    "address": "Adresse : Centre Commercial – Mohammadia Mall –Algiers- 16058 - Algeria",
+                    "phone": "Numéro de Téléphone : +213 558273327",
+                    "website": "Site Web : https://temacina.com",
+                    "email": "Courriel : contact@temacina.com"
+                },
+                "international": {
+                    "title": "INTERNATIONAL - ROYAUME UNI - LONDRES",
+                    "company": "Nom de l'entreprise : DIGITAL TRADE AND EXPORT Ltd",
+                    "address": "Adresse : 128 City Road – Londres - Royaume Uni",
+                    "phone": "Numéro de Téléphone WhatsApp : +33 6 27 59 26 39",
+                    "website": "Site Web : https://temacina.com",
+                    "email": "Courriel : contact@temacina.com"
+                }
+            },
+            "dataProcessing": {
+                "title": "Détails du Traitement des Données",
+                "typesCollected": {
+                    "title": "Types d'Informations Collectées",
+                    "text": "Nous collectons et enregistrons toutes les informations que vous nous communiquez via les Services Temacina.com. Vous pouvez choisir de ne pas nous communiquer certaines informations, cette décision risque néanmoins de vous priver de nombreux Services Temacina.com que nous vous proposons. Nous collectons différentes catégories d'informations pour faciliter les transactions sur notre Plateforme, notamment :",
+                    "categories": [
+                        "Commerciales",
+                        "Communication",
+                        "L'appareil",
+                        "Compte",
+                        "Le marketing et la publicité",
+                        "E paiement",
+                        "L'emplacement",
+                        "Les activités en ligne",
+                        "Les comptes de médias sociaux",
+                        "Les contacts",
+                        "Les transactions"
+                    ]
+                },
+                "detailsSupplied": {
+                    "title": "Détails des Informations Fournies",
+                    "text": "Les utilisateurs doivent fournir diverses informations lors de leur inscription et de leur utilisation de la Plateforme, notamment :",
+                    "details": [
+                        "Informations de contact : nom, adresse, numéro de téléphone, adresse e-mail",
+                        "Informations relatives au compte : nom d'utilisateur, mot de passe, préférences de compte",
+                        "Informations commerciales : nom de l'entreprise, numéro d'enregistrement, secteur d'activité",
+                        "Informations relatives aux transactions : détails des achats ou des ventes effectués sur la Plateforme",
+                        "Informations relatives au paiement : informations de carte de crédit, coordonnées bancaires",
+                        "Contenu stocké dans les appareils : autorisation d'accès à des données telles que les contacts, les photos, les vidéos",
+                        "Informations sur les interactions lors d'événements professionnels : échanges lors de salons ou de conférences"
+                    ]
+                },
+                "automaticallyCollected": {
+                    "title": "Informations Collectées Automatiquement",
+                    "text": "Nous collectons et enregistrons automatiquement certains types d'informations concernant votre utilisation des Services Temacina.com, notamment votre interaction avec le contenu et les services disponibles via les Services Temacina.com. Comme de nombreux autres sites Internet, nous utilisons notamment des « cookies » ainsi que d'autres identificateurs uniques et obtenons certains types d'informations lorsque votre navigateur ou votre appareil accède aux Services Temacina.com et autres contenus affichés sur d'autres sites Internet par Temacina.com ou pour son compte. Certaines informations sont collectées automatiquement lors de l'utilisation de la Plateforme, telles que :",
+                    "details": [
+                        "Informations sur l'appareil : type d'appareil, adresse IP, navigateur utilisé",
+                        "Informations sur l'activité en ligne : pages consultées, comportement de navigation",
+                        "Informations de localisation : données de géolocalisation",
+                        "Informations de communication : messages échangés sur la Plateforme",
+                        "Informations marketing et publicitaires : préférences de contenu et de communication",
+                        "Contenu généré par l'utilisateur : photos, vidéos, commentaires postés sur la Plateforme",
+                        "Autres informations statistiques : données d'utilisation de la Plateforme"
+                    ]
+                },
+                "thirdPartyInformation": {
+                    "title": "Informations Reçues de Tiers",
+                    "text": "Nous recevons également des informations de tiers pour améliorer nos services, notamment :",
+                    "details": [
+                        "Informations relatives aux comptes de médias sociaux : données de profil et de connexion",
+                        "Informations de communication : correspondance avec le service client, réclamations des utilisateurs",
+                        "Informations fournies par des tiers pour évaluer les produits/services : avis d'experts, évaluations externes",
+                        "Informations sur les interactions avec d'autres produits/services : intégrations avec d'autres plateformes ou services"
+                    ]
+                },
+                "purposeOfUse": {
+                    "title": "Objectif d'utilisation",
+                    "purposes": [
+                        {
+                            "title": "Administration du compte",
+                            "text": "Nous utilisons vos informations pour vérifier votre éligibilité à l'enregistrement en tant qu'utilisateur de la plateforme - Temacina.com, conformément à nos conditions d'utilisation. Cela comprend l'examen de vos informations d'identification, telles que votre nom, votre adresse, votre numéro de téléphone, et l'attribution d'identifiants de connexion sécurisés. Nous développons également des profils d'utilisateur pour personnaliser votre expérience sur la plateforme."
+                        },
+                        {
+                            "title": "Achat et livraison de produits et services",
+                            "text": "Vos informations sont utilisées pour faciliter l'ensemble du processus de transaction sur la plateforme, de la passation de commande à la livraison des produits ou services. Cela comprend la collecte des détails de facturation et d'expédition, le traitement des paiements, et la gestion des retours et des remboursements. De plus, nous fournissons un support logistique pour garantir la livraison efficace des produits."
+                        },
+                        {
+                            "title": "Communication",
+                            "text": "La plateforme - Temacina.com facilite la communication entre les utilisateurs, y compris les acheteurs et les vendeurs. Nous utilisons vos informations pour permettre cette communication, en incluant les échanges de messages entre utilisateurs et le traitement des demandes de support client. Nous veillons à sécuriser ces communications pour protéger la confidentialité des informations échangées. Communiquer avec vous, nous utilisons vos informations personnelles afin de communiquer avec vous au sujet des Services Temacina.com via différents canaux (ex. téléphone, email, chat)."
+                        },
+                        {
+                            "title": "Services de voix, d'images et d'appareils photo",
+                            "text": "Dans le cadre de certains services offerts sur la plateforme, tels que la communication vocale ou l'envoi de photos, nous pouvons accéder à vos données stockées sur votre appareil. Cela peut inclure vos contacts, photos, vidéos, et autres fichiers multimédias. Ces données sont utilisées uniquement pour fournir les services demandés et ne sont pas stockées après leur utilisation."
+                        },
+                        {
+                            "title": "Recommandations et personnalisation",
+                            "text": "Nous utilisons vos informations personnelles pour vous fournir des recommandations personnalisées sur la plateforme, telles que des produits ou des services susceptibles de vous intéresser en fonction de vos activités précédentes. Ces recommandations sont basées sur des algorithmes de recommandation qui analysent vos interactions passées sur la plateforme."
+                        },
+                        {
+                            "title": "Marketing et publicité",
+                            "text": "La plateforme - Temacina.com utilise vos informations pour vous proposer des publicités personnalisées, en fonction de vos préférences et de vos activités sur la plateforme. Ces publicités peuvent apparaître pendant votre navigation sur la plateforme ou sur d'autres sites Web tiers. Nous utilisons des cookies et d'autres technologies de suivi pour collecter des informations sur vos habitudes de navigation et vos centres d'intérêt afin de personnaliser les publicités qui vous sont présentées."
+                        },
+                        {
+                            "title": "Recherche et développement",
+                            "text": "Vos informations personnelles sont utilisées à des fins de recherche et de développement pour améliorer la plateforme - Temacina.com. Cela peut inclure l'analyse des tendances d'utilisation, la compréhension des besoins des utilisateurs, et le développement de nouvelles fonctionnalités ou services. Les données collectées à des fins de recherche sont anonymisées et agrégées pour protéger votre vie privée."
+                        },
+                        {
+                            "title": "Prévention de la fraude et risques de crédit",
+                            "text": "Nous utilisons vos informations personnelles pour détecter et prévenir la fraude, ainsi que pour évaluer les risques de crédit associés aux transactions sur la plateforme. Cela peut inclure l'analyse des modèles de comportement des utilisateurs, la vérification des informations de paiement, et la surveillance des activités suspectes."
+                        },
+                        {
+                            "title": "Respecter les obligations légales",
+                            "text": "Nous collectons et utilisons vos informations personnelles pour nous conformer aux lois et réglementations en vigueur, notamment en matière de protection des données personnelles et de lutte contre la fraude. Cela peut inclure la vérification de votre identité, la collecte d'informations de facturation à des fins fiscales, et la réponse aux demandes des autorités compétentes en matière d'application de la loi. Nous utilisons vos informations pour vérifier votre identité et effectuer des contrôles de sécurité, KYC (know-your-customer) et anti-blanchiment d'argent afin de créer des comptes d'utilisateurs."
+                        },
+                        {
+                            "title": "Finalités pour lesquelles nous recueillons votre consentement",
+                            "text": "Nous pourrons également être amenés à requérir votre consentement pour le traitement de vos informations personnelles pour une finalité spécifique que nous vous indiquerons. Lorsque vous consentez au traitement de vos informations personnelles pour cette finalité spécifique, vous pourrez retirer votre consentement à tout moment et nous cesserons tout traitement de vos informations pour cette finalité."
+                        },
+                        {
+                            "title": "Transferts à l’international",
+                            "text": "Lorsque nous transférons des informations personnelles à l’international, nous nous assurons que ces informations sont transférées en conformité avec la présente politique de confidentialité et en application des lois applicables à la protection des données personnelles. Nous nous appuyons sur les Lois de l’RGPD International."
+                        },
+                        {
+                            "title": "Réception d’emails et Notification",
+                            "text": "Si vous ne souhaitez pas recevoir d'e-mails ou autres communications de notre part, veuillez modifier la section Paramètre de Votre compte. Si vous ne souhaitez pas recevoir de notifications de notre part, veuillez modifier les paramètres de notification de l'application ou de votre appareil."
+                        },
+                        {
+                            "title": "Le temps de conservation de vous informations personnelles",
+                            "text": "Nous conservons vos informations personnelles afin de vous permettre d'utiliser en continu les Services Temacina.com, pour une durée nécessaire à la réalisation des finalités pertinentes dans les conditions décrites dans la présente politique de confidentialité, pour une durée nécessaire à la réalisation d'obligations légales, ou pour toute autre durée qui aura pu vous être communiquée ou pour conserver votre historique de transactions afin de vous permettre de consulter vos précédentes commandes (et commander à nouveau si vous le souhaitez) et vos adresses de livraisons pour lesdites commandes et afin d'améliorer la pertinence des produits et contenus que nous vous recommandons."
+                        },
+                        {
+                            "title": "Suppression ou Annulation de Votre consentement",
+                            "text": "En application de la loi applicable, vous disposez d'un droit d'accès, de modification, de rectification et de suppression des informations vous concernant, ainsi que du droit de demander la portabilité de ces informations. Vous aurez également la possibilité de vous opposer au traitement de vos informations personnelles ou de nous demander de restreindre le traitement de vos informations personnelles dans certains cas. Lorsque vous consentez à ce que nous traitions vos informations personnelles pour une finalité déterminée, vous pouvez retirer votre consentement à tout moment et nous arrêterons le traitement de vos données pour cette finalité. Veuillez nous contacter par e-mail : contact@temacina.com."
+                        }
+                    ]
+                }
+            },
+            "disclosure": {
+                "title": "Divulgation d'Informations Personnelles via le Partage ou via Autre Moyen",
+                "users": {
+                    "title": "Utilisateurs de la Plateforme",
+                    "text": "Nous tenons à assurer la confidentialité et la sécurité de vos informations personnelles. Cependant, dans le cadre de nos activités, nous pouvons être amenés à divulguer ou à partager certaines de vos informations avec des tiers dans les circonstances suivantes :"
+                },
+                "otherUsers": {
+                    "title": "Autres Utilisateurs de la Plateforme",
+                    "text": "Dans le cadre de la facilitation des transactions commerciales et des communications entre les utilisateurs, nous pouvons divulguer des informations personnelles aux autres utilisateurs de la plateforme lorsque cela est nécessaire pour finaliser des achats ou pour résoudre des problèmes liés aux transactions."
+                },
+                "thirdPartyPartners": {
+                    "title": "Partenaires Commerciaux Tiers et Prestataires de Services",
+                    "text": "Nous pouvons engager des partenaires commerciaux tiers et des prestataires de services pour nous aider à fournir et à améliorer nos services. Ces partenaires peuvent inclure des entreprises fournissant des services complémentaires aux nôtres, tels que des solutions de paiement, des services de livraison, des services de marketing et de publicité, et des services d'analyse de données. Nous ne partagerons vos informations personnelles avec ces tiers que dans la mesure nécessaire pour fournir les services demandés et sous réserve de votre consentement lorsque la loi l'exige."
+                },
+                "marketingPlatforms": {
+                    "title": "Plateformes de Marketing et de Publicité et Fournisseurs de Services d'Analyse",
+                    "text": "Nous utilisons des plateformes de marketing et de publicité tierces, ainsi que des fournisseurs de services d'analyse, pour personnaliser le contenu et les annonces que vous voyez lorsque vous utilisez notre plateforme. Ces tierces parties peuvent collecter des informations sur votre activité en ligne à travers différents sites web et plateformes pour vous présenter des publicités ciblées. Nous ne contrôlons pas ces tierces parties et vous êtes encouragé à consulter leurs politiques de confidentialité pour comprendre comment elles traitent vos informations personnelles."
+                },
+                "dueDiligence": {
+                    "title": "Prestataires de Services de Diligence Raisonnable et de Vérification",
+                    "text": "Dans le cadre de notre engagement envers la sécurité et la conformité, nous pouvons partager vos informations personnelles avec des prestataires de services spécialisés dans la diligence raisonnable et la vérification des entreprises. Cela peut inclure la vérification de l'identité des utilisateurs, la détection de la fraude et la prévention des activités illégales."
+                },
+                "paymentProviders": {
+                    "title": "Prestataires de Services de Paiement",
+                    "text": "Pour faciliter les transactions financières sur notre plateforme, nous travaillons avec des prestataires de services de paiement tiers. Ces prestataires peuvent collecter et traiter vos informations personnelles pour autoriser les paiements, prévenir la fraude et gérer les demandes de remboursement. Leurs activités sont régies par leurs propres politiques de confidentialité, que nous vous encourageons à consulter."
+                },
+                "creditRisk": {
+                    "title": "Fournisseurs d'Évaluation du Risque de Crédit",
+                    "text": "Afin de garantir la sécurité de nos utilisateurs et de prévenir les risques financiers, nous pouvons partager vos informations personnelles avec des fournisseurs d'évaluation du risque de crédit. Ces fournisseurs utilisent des méthodes d'évaluation sophistiquées pour déterminer si un utilisateur peut être autorisé à effectuer des transactions financières sur notre plateforme."
+                },
+                "logisticsPartners": {
+                    "title": "Partenaires Logistiques",
+                    "text": "Pour assurer la livraison efficace des produits achetés sur notre plateforme, nous pouvons partager vos informations personnelles avec des partenaires logistiques chargés de gérer les expéditions, les retours et les échanges de produits. Ces partenaires sont tenus de respecter les mêmes normes de confidentialité et de sécurité que nous."
+                },
+                "customsAgents": {
+                    "title": "Agents en Douane",
+                    "text": "Lorsque vous effectuez des transactions internationales, vos informations personnelles peuvent être partagées avec des agents en douane pour faciliter le processus de dédouanement des marchandises."
+                },
+                "cloudComputing": {
+                    "title": "Fournisseurs de Services d'Informatique en Cloud",
+                    "text": "Pour assurer le stockage sécurisé de vos données, nous pouvons utiliser des services de cloud computing fournis par des tiers. Ces fournisseurs sont sélectionnés pour leur engagement envers la sécurité et la confidentialité des données."
+                },
+                "instantMessaging": {
+                    "title": "Fournisseurs de Services de Messagerie Instantanée",
+                    "text": "Notre plateforme peut inclure un service de messagerie instantanée pour faciliter la communication entre les acheteurs et les vendeurs. Les informations échangées via ce service, y compris les messages et les fichiers, peuvent être collectées et stockées par notre équipe IT dans le cadre de nos activités de sécurité, de contrôle des risques et de conformité."
+                },
+                "sdkProviders": {
+                    "title": "Fournisseurs de Services de Kits de Développement Logiciel (\"SDK\")",
+                    "text": "Dans le cadre du développement et de l'amélioration de notre plateforme, nous pouvons intégrer des services SDK fournis par des tiers. Ces SDK peuvent collecter des informations sur votre utilisation de la plateforme à des fins d'analyse et d'optimisation."
+                },
+                "customerService": {
+                    "title": "Prestataires de Services à la Clientèle",
+                    "text": "Pour répondre à vos demandes de support et de service après-vente, nous pouvons partager vos informations personnelles avec des prestataires de services à la clientèle. Ces prestataires sont formés pour traiter vos demandes de manière efficace et sécurisée."
+                },
+                "riskControl": {
+                    "title": "Prestataires de Services de Contrôle des Risques",
+                    "text": "Afin de protéger nos utilisateurs contre la fraude et les activités suspectes, nous pouvons partager vos informations personnelles avec des prestataires de services spécialisés dans le contrôle des risques. Ces prestataires utilisent des techniques avancées pour détecter et prévenir les comportements frauduleux sur notre plateforme."
+                },
+                "thirdPartyEvaluation": {
+                    "title": "Prestataires de Services d'Évaluation et de Révision Tiers",
+                    "text": "Dans le cadre de notre engagement envers l'amélioration continue de nos services, nous pouvons partager vos informations personnelles avec des prestataires de services indépendants chargés d'évaluer et de réviser la qualité de nos produits et services. Vos commentaires et suggestions sont précieux pour nous et contribuent à améliorer votre expérience utilisateur."
+                },
+                "externalAdvisors": {
+                    "title": "Conseillers Professionnels Externes et Autres Organisations",
+                    "text": "En plus des catégories mentionnées ci-dessus, nous pouvons également divulguer vos informations personnelles aux catégories suivantes, lorsque cela est nécessaire pour se conformer aux lois applicables, exercer, établir ou défendre nos droits légaux, ou protéger vos intérêts vitaux ou ceux de toute autre personne :",
+                    "advisors": [
+                        "Conseillers Professionnels Externes : Tels que des avocats, des comptables et des consultants en matière de conformité, qui nous aident à gérer nos affaires et à respecter nos obligations légales et réglementaires.",
+                        "Organismes Chargés de l'Application de la Loi : Dans le cadre d'une enquête criminelle ou d'une procédure judiciaire, nous pouvons être tenus de divulguer vos informations personnelles aux autorités compétentes.",
+                        "Assureurs : Pour évaluer et gérer les risques liés à nos activités commerciales, nous pouvons partager vos informations personnelles avec nos assureurs.",
+                        "Gouvernements et Régulateurs : Lorsque cela est nécessaire pour se conformer aux lois et règlements applicables, nous pouvons être tenus de divulguer vos informations personnelles aux autorités gouvernementales et réglementaires.",
+                        "Acquéreurs Réels ou Potentiels d'Entreprises : Dans le cadre d'une fusion, d'une acquisition ou d'une cession d'actifs, vos informations personnelles peuvent être transférées à des acquéreurs réels ou potentiels dans le cadre de la transaction. Nous nous engageons à informer l'acquéreur que vos informations personnelles ne doivent être utilisées que conformément à la présente politique de confidentialité."
+                    ]
+                },
+                "anonymousData": {
+                    "title": "Données Anonymes pour Analyse",
+                    "text": "Dans certains cas, nous pouvons partager des données anonymes avec des tiers à des fins d'analyse et de recherche. Les données anonymes sont des informations qui ont été rendues anonymes de manière à ne plus pouvoir être associées à vous personnellement. Lorsque nous partageons des données anonymes, nous veillons à ce qu'aucune information permettant de vous identifier ne soit incluse."
+                },
+                "thirdParties": {
+                    "title": "Tiers et Sites Web partenaires",
+                    "text": "Nous avons établi des partenariats avec des tiers et des sites web pour vous offrir une gamme étendue de produits et services. Ces partenaires peuvent inclure des entreprises tierces proposant des produits ou services complémentaires aux nôtres. Lorsque vous interagissez avec ces tiers, vos informations personnelles peuvent être collectées et utilisées conformément à leurs propres politiques de confidentialité. Nous vous encourageons à consulter les politiques de confidentialité de ces tiers avant de partager vos informations personnelles avec eux."
+                },
+                "instantMessagingService": {
+                    "title": "Service de Messagerie Instantanée et chat en ligne",
+                    "text": "Notre plateforme peut inclure un service de messagerie instantanée permettant aux utilisateurs de communiquer entre eux. Les informations échangées via ce service, y compris les messages, les fichiers et les médias, peuvent être collectées et stockées par notre équipe IT. Ces informations peuvent être utilisées pour répondre aux demandes des utilisateurs, résoudre les litiges, prévenir la fraude et assurer le bon fonctionnement de notre plateforme. Le service de messagerie instantanée ou chat en ligne sur la plateforme, recueillera vos informations de chat et les informations relatives à votre appareil et partagera une copie de vos informations de chat avec nous. Nous utiliserons vos informations de chat pour des raisons de sécurité, de contrôle des risques et d'autres exigences de conformité basées sur les politiques et règles de notre plateforme, les exigences légales et réglementaires, la réponse aux demandes des autorités réglementaires, la fourniture de services (y compris, mais sans s'y limiter, le traitement des transactions et le règlement des litiges entre les acheteurs et les vendeurs, le traitement des plaintes des utilisateurs) et d'autres besoins en matière d'analyse et de service. Vous pouvez vous référer à la politique de confidentialité."
+                }
+            },
+            "safeguarding": {
+                "title": "Sauvegarde et Conservation",
+                "intro": "Nous comprenons l'importance de la confidentialité de vos informations personnelles et nous nous engageons à les conserver de manière sécurisée et conforme aux lois applicables. Notre politique de rétention des données est conçue pour garantir que nous ne conservons vos informations personnelles que le temps nécessaire pour atteindre les objectifs pour lesquels elles ont été collectées, ainsi que pour respecter nos obligations légales et réglementaires.",
+                "shelfLife": {
+                    "title": "Durée de Conservation",
+                    "text": "Nous conservons vos informations personnelles tant que nous avons un besoin commercial légitime de le faire. Cela peut inclure la fourniture continue de services ou de produits que vous avez demandés, la gestion des transactions commerciales, la résolution des litiges, la prévention de la fraude et la conformité aux exigences légales et réglementaires telles que les lois fiscales et comptables. Lorsque nous n'avons plus de besoin commercial légitime de traiter vos informations personnelles, nous les supprimons ou les rendons anonymes de manière sécurisée. Cela peut inclure la suppression des données de nos systèmes, le cryptage des informations sensibles ou la suppression des identifiants personnels pour rendre les données non identifiables."
+                }
+            },
+            "cookies": {
+                "title": "Cookies et Leurs Types",
+                "intro": "Les cookies sont de petits fichiers de données stockés sur votre appareil lorsque vous visitez un site web. Ils sont largement utilisés pour permettre aux sites web de fonctionner efficacement et de fournir une expérience utilisateur personnalisée. Nous utilisons des cookies et d'autres technologies similaires pour reconnaître votre navigateur ou votre appareil, fournir et améliorer nos services, ainsi que pour comprendre et analyser les tendances d'utilisation.",
+                "types": {
+                    "title": "Types de Cookies",
+                    "types": [
+                        {
+                            "title": "Cookies Essentiels",
+                            "text": "Ces cookies sont nécessaires au fonctionnement de notre site web et vous permettent d'accéder aux fonctionnalités de base telles que la navigation sur les pages et l'accès aux zones sécurisées."
+                        },
+                        {
+                            "title": "Cookies de Performance",
+                            "text": "Ces cookies nous aident à comprendre comment vous utilisez notre site web en collectant des informations sur les pages que vous visitez, le temps que vous passez sur notre site et les erreurs que vous pourriez rencontrer. Ces informations nous aident à améliorer la performance de notre site web."
+                        },
+                        {
+                            "title": "Cookies de Fonctionnalité",
+                            "text": "Ces cookies permettent au site web de se souvenir des choix que vous avez faits (comme votre nom d'utilisateur, votre langue ou votre région) et fournissent des fonctionnalités améliorées et plus personnalisées."
+                        },
+                        {
+                            "title": "Cookies de Publicité",
+                            "text": "Ces cookies sont utilisés pour vous montrer des publicités qui sont pertinentes pour vous et vos intérêts. Ils peuvent également être utilisés pour limiter le nombre de fois où vous voyez une publicité et mesurer l'efficacité des campagnes publicitaires."
+                        }
+                    ]
+                },
+                "control": {
+                    "title": "Contrôle des Cookies",
+                    "text": "Vous pouvez contrôler et gérer les cookies en modifiant les paramètres de votre navigateur pour accepter, refuser ou supprimer les cookies. Vous pouvez également configurer votre navigateur pour vous avertir chaque fois qu'un cookie est envoyé. Veuillez noter que si vous choisissez de désactiver les cookies, certaines parties de notre site web peuvent ne pas fonctionner correctement."
+                }
+            },
+            "rights": {
+                "title": "Vos Droits et Obligations",
+                "intro": "Vous avez le droit de demander la suppression de vos informations personnelles à tout moment, sous réserve de nos obligations légales et réglementaires de conservation des données. Si vous souhaitez exercer ce droit, veuillez nous contacter en utilisant les coordonnées fournies dans la section Contact de cette politique de confidentialité par e-mail : contact@temacina.com. Nous répondrons à votre demande dans les délais et conformément aux lois applicables. En tant qu'utilisateur de notre Plateforme, vous bénéficiez de certains droits en matière de protection des données. Nous nous engageons à respecter ces droits et à vous fournir les moyens nécessaires pour les exercer. Voici un aperçu des droits dont vous disposez :",
+                "rightsList": [
+                    {
+                        "title": "Le droit d'accès, de correction, de mise à jour ou de suppression de vos informations personnelles",
+                        "text": "Vous avez le droit de demander l'accès à vos informations personnelles détenues par nous. Vous pouvez également demander à corriger, mettre à jour ou supprimer toute information inexacte ou incomplète."
+                    },
+                    {
+                        "title": "Le droit d'opposition au traitement de vos informations personnelles",
+                        "text": "Vous avez le droit de vous opposer au traitement de vos informations personnelles lorsque celui-ci est basé sur nos intérêts légitimes. Vous avez également le droit de vous opposer au traitement à des fins de marketing direct."
+                    },
+                    {
+                        "title": "Le droit de demander la restriction du traitement ou la portabilité de vos informations personnelles",
+                        "text": "Dans certaines circonstances, vous avez le droit de demander la restriction du traitement de vos informations personnelles ou de demander la portabilité de vos informations personnelles vers un autre responsable du traitement."
+                    },
+                    {
+                        "title": "Le droit de refuser les communications marketing",
+                        "text": "Vous avez le droit de refuser de recevoir des communications marketing de notre part à tout moment. Vous pouvez exercer ce droit en cliquant sur le lien 'unsubscribe' ou 'opt-out' dans les e-mails marketing que nous vous envoyons. Pour refuser d'autres formes de marketing, veuillez nous contacter à l'adresse e-mail : contact@temacina.com"
+                    },
+                    {
+                        "title": "Le droit de retirer votre consentement",
+                        "text": "Si nous avons recueilli et traité vos informations personnelles avec votre consentement, vous avez le droit de retirer ce consentement à tout moment. Le retrait de votre consentement n'affectera pas la légalité du traitement effectué avant votre retrait, ni le traitement effectué sur la base d'autres motifs légitimes."
+                    },
+                    {
+                        "title": "Le droit de déposer une plainte auprès d'une autorité de protection des données",
+                        "text": "Si vous estimez que nous avons enfreint vos droits en matière de protection des données, vous avez le droit de déposer une plainte auprès d'une autorité de protection des données compétente. Pour plus d'informations, veuillez contacter votre autorité locale de protection des données."
+                    }
+                ],
+                "complaint": {
+                    "title": "Plaintes",
+                    "text": "Nous nous engageons à répondre à toutes les demandes que nous recevons de personnes souhaitant exercer leurs droits en matière de protection des données conformément aux lois applicables. Si vous résidez dans une juridiction qui prévoit un droit de recours contre le refus de votre demande d'exercice de ces droits, vous pouvez soumettre votre recours en contactant l'adresse e-mail : contact@temacina.com"
+                }
+            },
+            "internationalUsers": {
+                "title": "Utilisateurs Internationaux",
+                "intro": "Nous comprenons l'importance de la confidentialité de vos informations personnelles, même lorsqu'elles sont transférées entre différents pays. Cette section explique comment nous gérons les transferts internationaux d'informations personnelles et les mesures que nous prenons pour assurer la protection de vos données.",
+                "storageLocation": {
+                    "title": "Lieu de Stockage",
+                    "text": "Nous stockons les informations personnelles que nous recueillons sur notre plateforme sur des serveurs hébergés auprès de Google Cloud. Google Cloud offre une infrastructure sécurisée et conforme aux normes de sécurité les plus élevées pour assurer la protection de vos données."
+                },
+                "internationalTransfers": {
+                    "title": "Transferts Internationaux",
+                    "text": "Il est inévitable que certains cas nécessitent des transferts internationaux d'informations personnelles des utilisateurs entre les pays où nous opérons et ceux où nos serveurs sont situés, y compris vers les États-Unis où Google Cloud a des centres de données. Ces pays ont des lois sur la protection des données qui peuvent différer de celles de votre pays d'origine."
+                },
+                "dataProtection": {
+                    "title": "Garanties de Protection des Données",
+                    "text": "Nous nous engageons à ce que ces transferts internationaux ne soient effectués qu'à des fins légitimes et sur la base d'un fondement juridique approprié, ou dans la mesure où le droit applicable le permet. Pour garantir que vos informations personnelles restent protégées lors de ces transferts, nous prenons les mesures suivantes :",
+                    "measures": [
+                        "Obligations de Confidentialité des Destinataires : Nous nous assurons que les destinataires de vos informations personnelles sont tenus à des obligations de confidentialité similaires à celles énoncées dans la présente politique de confidentialité.",
+                        "Mesures Techniques et Organisationnelles : Nous mettons en œuvre des mesures techniques et organisationnelles appropriées pour garantir que vos informations personnelles restent protégées. Cela peut inclure le cryptage des données, la gestion des accès et des identités, et la surveillance continue des systèmes."
+                    ]
+                },
+                "standardContractualClauses": {
+                    "title": "Demande de Copie des Clauses Contractuelles Standard",
+                    "text": "Si vous souhaitez obtenir une copie des clauses contractuelles standard que nous utilisons pour encadrer les transferts internationaux de vos informations personnelles, veuillez nous contacter à l'adresse e-mail suivante : contact@temacina.com. Nous serons heureux de vous fournir les informations demandées dans les délais appropriés."
+                },
+                "commitment": {
+                    "title": "Notre Engagement",
+                    "text": "Nous prenons très au sérieux la protection de vos informations personnelles et nous nous engageons à assurer leur sécurité lors de tout transfert international. Si vous avez des questions ou des préoccupations concernant les transferts internationaux d'informations personnelles, n'hésitez pas à nous contacter."
+                }
+            },
+            "minors": {
+                "title": "Mineurs",
+                "intro": "Nous ne vendons pas de produits aux mineurs. Nous vendons des produits pour enfants pour des achats par des adultes. Si vous avez moins de 18 ans, vous ne pouvez utiliser notre plateforme Temacina.com que sous la surveillance d'un parent ou d'un tuteur. Nous accordons une grande importance à la protection de la vie privée des mineurs en ligne. Cette section explique notre politique concernant l'utilisation de la Plateforme par les utilisateurs de moins de 18 ans ('mineurs') et notre engagement à ne pas recueillir sciemment d'informations personnelles auprès d'eux.",
+                "accessibility": {
+                    "title": "Accessibilité de la Plateforme aux Mineurs",
+                    "text": "La Plateforme est destinée aux adultes et n'est pas conçue pour être utilisée par des mineurs. Nous ne ciblons pas délibérément les mineurs en tant qu'utilisateurs de notre Plateforme, et nous ne collectons pas sciemment d'informations personnelles auprès d'eux."
+                },
+                "dataCollection": {
+                    "title": "Politique de Collecte de Données pour les Mineurs",
+                    "text": "Nous n'avons pas l'intention de recueillir sciemment des informations personnelles en ligne auprès de mineurs. Si nous apprenons qu'un mineur nous a fourni des informations personnelles sans le consentement de ses parents ou de son tuteur légal, nous prendrons des mesures pour supprimer ces informations de nos bases de données dans les plus brefs délais. Si vous pensez que nous avons recueilli des informations personnelles auprès d'un mineur sans consentement parental, veuillez nous contacter à l'adresse e-mail suivante : contact@temacina.com."
+                },
+                "salesToMinors": {
+                    "title": "Vente de Produits ou Services aux Mineurs",
+                    "text": "Nous n'avons pas l'intention de vendre nos produits ou services à des mineurs. Si un mineur souhaite acheter nos produits ou services, cela doit être fait sous la supervision et avec le consentement de ses parents ou de son tuteur légal."
+                },
+                "parentalConsent": {
+                    "title": "Consentement Parental",
+                    "text": "Nous encourageons les parents et les tuteurs légaux à surveiller l'utilisation d'Internet de leurs enfants et à participer à leurs activités en ligne en leur fournissant des conseils appropriés sur la protection de leur vie privée et en surveillant l'accès à la Plateforme et à d'autres sites web."
+                },
+                "contactForDeleting": {
+                    "title": "Contact pour la Suppression d'Informations",
+                    "text": "Si vous êtes un parent ou un tuteur légal et que vous découvrez que votre enfant nous a fourni des informations personnelles sans votre consentement, ou si vous souhaitez demander la suppression des informations personnelles de votre enfant de nos bases de données, veuillez nous contacter à l'adresse e-mail suivante : contact@temacina.com. Nous prendrons toutes les mesures nécessaires pour répondre à votre demande dans les plus brefs délais."
+                }
+            },
+            "safetyMeasures": {
+                "title": "Mesures de Sécurité",
+                "intro": "Nous accordons une grande importance à la sécurité et à la confidentialité des informations que vous nous confiez. Cette section explique les mesures que nous prenons pour protéger vos informations et garantir leur utilisation correcte.",
+                "technicalMeasures": {
+                    "title": "Mesures Techniques et Organisationnelles",
+                    "text": "Nous mettons en œuvre des mesures techniques et organisationnelles appropriées pour empêcher tout accès non autorisé à la Plateforme, pour maintenir l'exactitude des données et pour assurer l'utilisation correcte des informations que nous détenons. Cela peut inclure l'utilisation de pare-feu, de cryptage des données, de contrôles d'accès et de mesures de sécurité physique pour protéger les serveurs où vos informations sont stockées."
+                },
+                "accountSecurity": {
+                    "title": "Sécurité des Comptes Utilisateurs",
+                    "text": "Pour les utilisateurs enregistrés de la Plateforme, certaines de vos informations peuvent être consultées et modifiées via votre compte, qui est protégé par un mot de passe. Il est de votre responsabilité de garder votre mot de passe sécurisé et confidentiel. Vous ne devez pas divulguer votre mot de passe à qui que ce soit, y compris notre personnel. Nous ne vous demanderons jamais votre mot de passe lors d'un appel téléphonique non sollicité ou dans un e-mail non sollicité. Si vous partagez un ordinateur avec d'autres personnes, vous ne devez pas enregistrer vos informations de connexion (par exemple, votre nom d'utilisateur et votre mot de passe) sur cet ordinateur partagé. Nous vous encourageons également à vous déconnecter de votre compte et à fermer la fenêtre de votre navigateur lorsque vous avez terminé votre session, surtout si vous utilisez un ordinateur partagé ou public."
+                },
+                "dataTransmissionRisks": {
+                    "title": "Risques liés à la Transmission de Données en Ligne",
+                    "text": "Aucune transmission de données sur Internet ou sur un réseau sans fil ne peut être garantie comme étant parfaitement sûre. Par conséquent, bien que nous utilisions des mesures techniques et organisationnelles appropriées pour protéger les informations que nous détenons pour vous, nous ne pouvons pas garantir la sécurité des informations que vous nous transmettez et vous le faites à vos propres risques."
+                },
+                "commitmentToSafety": {
+                    "title": "Engagement en Matière de Sécurité",
+                    "text": "Nous nous engageons à continuer d'évaluer et d'améliorer nos mesures de sécurité pour protéger vos informations personnelles contre les risques de perte, de mauvaise utilisation, d'accès non autorisé, de divulgation, d'altération ou de destruction."
+                }
+            },
+            "amendments": {
+                "title": "Modifications de la Politique de Protection de la Vie Privée",
+                "intro": "Nous sommes engagés à maintenir la transparence et à vous informer de tout changement important apporté à notre politique de confidentialité. Cette section explique comment nous gérons les modifications de notre politique de protection de la vie privée et comment nous vous tenons informés de ces changements.",
+                "updatingPolicy": {
+                    "title": "Mise à Jour de la Politique de Confidentialité",
+                    "text": "Nous pouvons mettre à jour la présente politique de confidentialité de temps à autre pour diverses raisons, notamment en réponse à des évolutions juridiques, techniques ou commerciales National (Algérie) ou international. Lorsque nous apportons des modifications à notre politique de confidentialité, nous prenons les mesures appropriées pour vous en informer."
+                },
+                "notificationOfChanges": {
+                    "title": "Notification des Modifications",
+                    "text": "Nous nous engageons à vous informer de toute modification importante apportée à notre politique de protection de la vie privée, en fonction de l'importance des changements. Si une modification matérielle est apportée à cette politique de confidentialité et qu'elle réduit la protection de vos informations personnelles collectées dans le passé, nous obtiendrons votre consentement avant d'appliquer ces changements."
+                },
+                "publicationOfChanges": {
+                    "title": "Publication de la Politique de Confidentialité Modifiée",
+                    "text": "Toute modification de la présente politique de confidentialité sera communiquée par la publication d'une politique de confidentialité modifiée sur la Plateforme. Une fois publiée sur la Plateforme, la nouvelle politique de confidentialité entrera en vigueur immédiatement."
+                },
+                "checkLastUpdate": {
+                    "title": "Consultation de la Date de Dernière Mise à Jour",
+                    "text": "Vous pouvez consulter la date de la dernière mise à jour de cet avis de confidentialité en vérifiant la date de 'dernière mise à jour' affichée en haut de cet avis de confidentialité. Cette date vous indiquera quand la politique de confidentialité a été modifiée pour la dernière fois."
+                }
+            },
+            "contactUs": {
+                "title": "Comment Nous Contacter",
+                "intro": "Vous pouvez exercer vos droits après avoir accédé à votre compte. Et si vous avez des demandes, des questions ou des préoccupations concernant l'utilisation de vos informations personnelles et la présente politique de confidentialité, vous pouvez contacter notre délégué à la protection des données à l'adresse suivante :",
+                "info": {
+                    "manager": "Manager : Mustapha FAROUROU",
+                    "company": "Nom de l'entreprise : Algeria Partners",
+                    "address": "Adresse : Centre Commercial – Mohammadia Mall – Alger – Algérie.",
+                    "phone": "Numéro de Téléphone whatsapp : +213 558273327",
+                    "email": "Courriel : contact@temacina.com"
+                }
+            }
+        }
+    }
+}

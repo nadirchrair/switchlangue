@@ -1,13 +1,13 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
-import en from '../src/pages/GTSC/Content/en.json';
-import fr from '../src/pages/GTSC/Content/fr.json'
+import en from '../src/Privacypolicy/Content/en.json';
+import fr from '../src/Privacypolicy/Content/fr.json'
 i18n
   .use(initReactI18next)
   .init({
     resources: {
       en: { translation: en },
-      fr:{ translation: fr }
+     fr:{ translation: fr }
 
     },
     lng: 'fr', // Default language
