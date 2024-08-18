@@ -6,11 +6,12 @@ import Tamacina from './pages/Temacina/Tamacina';
 import TermsAndConditions from './pages/GCU/TermsAndConditions';
 import Gtsc from './pages/GTSC/Gtsc';
 import PrivacyPolicyViewer from './Privacypolicy/PrivacyPolicyViewer';
+import CookiesPolicy from './pages/CookiesPolicy/CookiesPolicy';
 
 function App() {
   return (
     <>
-    <PrivacyPolicyViewer/>
+    <CookiesPolicy/>
     </>
   );
 }

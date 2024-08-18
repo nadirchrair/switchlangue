@@ -1,0 +1,105 @@
+{
+    "cookiesPolicy": {
+      "title": "COOKIES POLICY",
+      "website": "Temacina.com",
+      "date": "Thursday July 11, 2024",
+      "mainLanguageTitle": "MAIN LANGUAGE OF OUR COOKIES POLICY",
+      "mainLanguage": "The French language",
+      "introductionTitle": "1. Introduction",
+      "introduction": "Our policy on the use of cookies details how Temacina.com uses these technologies to improve user experience, optimise the platform, provide targeted marketing and enhance security. Each category of cookie plays a specific role in enhancing your interaction with our Marketplace.",
+      "detailedPurposeTitle": "2. DETAILED PURPOSE OF USING COOKIES ON Temacina.com",
+      "improvingExperienceTitle": "2.1 Improving the User Experience",
+      "improvingExperience": "Cookies play a crucial role in personalising and making your browsing experience on Temacina.com as smooth as possible. Here's how they specifically improve your interaction with our Platform:",
+      "improvingExperienceList": {
+        "savingPreferences": "Saving preferences: Cookies save your preferences such as language, region and search settings. This saves you having to reconfigure your preferences on each visit, making your experience more intuitive and less tedious.",
+        "facilitatingNavigation": "Facilitating Intuitive Navigation: By remembering previous paths and interactions on the site, cookies make navigation faster and less complex, by anticipating the pages you might want to visit next. Cookies enable the platform to remember your previous actions, such as products consulted or search preferences, helping you to navigate with fewer clicks and greater intuitiveness.",
+        "personalisedContent": "Personalised Content: Cookies enable us to display personalised content tailored to your interests, thereby improving user engagement and satisfaction.",
+        "personalisedInterface": "Personalised interface: Based on your previous visits, the site can automatically adjust the display (for example, font size or contrast) and interactive elements to better suit your needs and preferences.",
+        "dynamicSuggestions": "Dynamic Suggestions: By analysing your past interactions, cookies make it possible to propose products or services dynamically, such as suggestions for similar or complementary products, thereby increasing the chances of satisfaction and transactions."
+      },
+      "optimisationTitle": "2.2 Optimisation of the Temacina.com platform",
+      "optimisation": "The use of cookies to collect data on the use of the Temacina.com Platform helps us identify areas for improvement and to optimise the overall performance of the platform:",
+      "optimisationList": {
+        "performanceAnalysis": "Performance analysis: Cookies collect data on page load times, bounce rates and interactions, enabling us to identify bottlenecks and areas requiring improvement.",
+        "abTesting": "A/B Testing and Optimisation: We use cookies to carry out A/B testing, enabling us to compare different versions of a page to determine which version performs best in terms of user engagement and conversion.",
+        "infrastructureAdaptation": "Infrastructure adaptation: The data collected via cookies helps us to adjust our server infrastructure to respond effectively to traffic peaks and ensure a stable and fast user experience.",
+        "loadBalancing": "Load Balancing: Cookies help to distribute the load of requests across our servers, preventing any individual server from becoming a bottleneck, thus ensuring optimal loading speeds for all users.",
+        "caching": "Caching: Some cookies can store information locally on your device to reduce the loading time of pages you have already visited, making subsequent visits faster.",
+        "errorDetection": "Error Detection: Cookies report errors encountered by users, enabling us to target and correct specific problems quickly for continuous improvement of the user interface."
+      },
+      "targetedMarketingTitle": "2.3 Targeted marketing",
+      "targetedMarketing": "Cookies are essential for providing more relevant and targeted marketing, which not only improves the user experience but also increases the effectiveness of our advertising campaigns:",
+      "targetedMarketingList": {
+        "personalisedAds": "Personalised Advertisements: By analysing your browsing habits and your previous interactions, we can present you with advertisements that correspond to your current interests, thereby increasing the likelihood that you will respond positively to our offers.",
+        "conversionTracking": "Conversion tracking: Cookies help us track conversions from advertising campaigns, which is crucial for measuring the effectiveness of different advertising strategies and optimising marketing spend.",
+        "audienceSegmentation": "Audience Segmentation: Thanks to cookies, we can segment users into different profile groups, which makes it possible to target specific campaigns to particular audience segments, making campaigns more relevant and effective.",
+        "retargeting": "Retargeting: Cookies identify users who have visited certain pages without making a purchase, enabling them to be targeted again with specific adverts to encourage them to return.",
+        "customerJourney": "Customer Journey Analysis: By tracking user journeys on the Temacina.com Platform, cookies help to understand the decision points in the buying journey, which guides the creation of more relevant and personalised marketing campaigns.",
+        "budgetOptimisation": "Budget allocation optimisation: The data collected via cookies helps to identify the most effective marketing channels, enabling budget allocation to be optimised according to return on investment."
+      },
+      "safetyTitle": "2.4 Safety",
+      "safety": "Cookies contribute significantly to the security of your experience on Temacina.com in a number of ways:",
+      "safetyList": {
+        "authentication": "Authentication and Session Management: These help to keep your sessions active while ensuring that no one else can access your account while you are browsing.",
+        "fraudPrevention": "Fraud prevention: Cookies detect and prevent suspicious behaviour and fraud attempts by analysing browsing patterns that deviate from normal activity.",
+        "transactionSecurity": "Transaction Security: They play an essential role in securing financial transactions on the Temacina.com Platform by ensuring that data exchanged during transactions remains secure and encrypted.",
+        "sessionMonitoring": "Session monitoring: This enables constant monitoring of active sessions to detect anomalies that could indicate identity theft or unauthorised access attempts.",
+        "transactionValidation": "Transaction Validation: Cookies play a role in validating transactions by ensuring that requests come from the legitimate user and not from malicious sources.",
+        "encryption": "Encryption: Cookies can store encrypted tokens which are used to encrypt data transmitted between the client and the server, adding an extra layer of security to the data exchanged."
+      },
+      "typesOfCookiesTitle": "3. TYPES AND DETAILS OF COOKIES USED ON Temacina.com",
+      "essentialCookies": "Essential cookies",
+      "essentialCookiesList": {
+        "basicFunctionality": "Basic functionality and security : Essential Access: Allows you to browse the Temacina.com Platform and access secure areas such as your personal account and the payment process.",
+        "sessionIntegrity": "Session Integrity: Ensures that your session remains secure and that no one else can access it, even on unsecured networks.",
+        "regulatoryCompliance": "Regulatory Compliance: Helping to comply with legal regulations on the confidentiality and security of user data."
+      },
+      "performanceCookies": "Performance and Analytical Cookies",
+      "performanceCookiesList": {
+        "dataCollection": "Data Collection and Analysis : Optimisation of the Temacina.com platform: Provide data on how users use the Temacina.com platform, including most visited pages, drop-off points, and traffic patterns, to improve the structure and design.",
+        "performanceMeasurement": "Performance Measurement: Help understand the effectiveness of changes made to the Temacina.com platform, measuring improvements in real time."
+      },
+      "functionalityCookies": "Functionality cookies",
+      "functionalityCookiesList": {
+        "customization": "Customization : User Preferences: Store choices such as language, region, sorting or filtering preferences to provide a more personalised and convenient experience.",
+        "contentAdaptation": "Content Adaptation: Automatically adapt the content displayed, such as product options or promotions, based on past interactions."
+      },
+      "marketingCookies": "Marketing Cookies",
+      "marketingCookiesList": {
+        "personalisedAdvertising": "Personalised advertising : Precise Targeting: Uses your browsing history to present you with ads tailored to your specific interests, thereby increasing advertising effectiveness.",
+        "campaignTracking": "Campaign Tracking: Evaluate the effectiveness of marketing campaigns by tracking the actions of users after they have seen or clicked on an advertisement."
+      },
+      "socialNetworkCookies": "Social Network Cookies",
+      "socialNetworkCookiesList": {
+        "socialFeatures": "Social Features : Easy sharing: Share content directly on social networks, amplifying the reach of our content and engaging more with the community.",
+        "socialConnection": "Social Connection: Make it easy to connect to our Temacina.com Platform via your social network accounts, integrating your social experience with our service."
+      },
+      "operationalCookies": "Operational Cookies",
+      "operationalCookiesList": {
+        "miscellaneousFeatures": "Miscellaneous Features : Smooth Connections: Recognise your ID as soon as you log in for a frictionless experience.",
+        "memberBenefits": "Member Benefits: Distinguish Prime members to offer exclusive benefits automatically.",
+        "productRecommendations": "Product Recommendations: Display relevant suggestions based on your purchase and browsing history.",
+        "shoppingContinuity": "Shopping continuity: Keep track of the items in your shopping basket, even after you have left the Temacina.com platform, so that you can continue shopping when you return.",
+        "fraudPrevention": "Fraud Prevention: Help identify and prevent fraudulent activities to secure your financial transactions."
+      },
+      "thirdPartyCookies": "Third-party cookies",
+      "thirdPartyCookiesList": {
+        "thirdPartyAnalysis": "Third-party analysis and advertising : Improved Insights: Provide in-depth analysis of the performance of the Temacina.com platform using specialised tools.",
+        "externalAds": "External Ads: Allow advertising partners to place relevant ads on our Temacina.com Platform and elsewhere based on your browsing of Temacina.com."
+      },
+      "persistentCookies": "Persistent cookies",
+      "persistentCookiesList": {
+        "longTermMemory": "Long-Term memory : Lasting preferences: Remain on your device to maintain your preferences over long periods, reducing the need to redefine them each time you visit.",
+        "experienceStability": "Experience Stability: Deliver a consistent, personalised experience every time you visit, by remembering your settings and preferences."
+      },
+      "sessionCookies": "Session Cookies",
+      "sessionCookiesList": {
+        "temporaryManagement": "Temporary Management : Session Management: These are essential for managing aspects of your active session and ensuring the security of your information while you are logged in.",
+        "transactionalProtection": "Transactional Protection: Crucial to securing every transaction for the duration of your visit, ensuring that sensitive data is protected and erased after the browser is closed."
+      },
+      "managingCookiesTitle": "4. MANAGING COOKIE PREFERENCES",
+      "managingCookies": "Customize Settings: You can adjust your cookie preferences at any time to reflect your specific privacy choices via your account settings on our Temacina.com Platform.",
+      "importantNote": "IMPORTANT: This detailed explanation of the different types of cookies and their specific functions demonstrates how each cookie contributes to an optimal, secure and personalised user experience on Temacina.com, while complying with data privacy and security standards. It also helps to optimise site operations, target marketing effectively and reinforce security measures, thereby ensuring a safe and effective platform for all users."
+    }
+  }
+  
