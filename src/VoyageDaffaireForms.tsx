@@ -1,4 +1,5 @@
 import React from 'react';
+import { useForm, Controller, SubmitHandler } from 'react-hook-form';
 import {
   TextField,
   FormControl,
@@ -14,10 +15,32 @@ import {
   TextareaAutosize,
 } from '@mui/material';
 
+// Define the shape of your form data
+interface FormData {
+  nomContact: string;
+  poste: string;
+  nomEntreprise: string;
+  email: string;
+  telephone: string;
+  wilaya: string;
+  services: string[];
+  autres: string;
+  policyAccepted: boolean;
+}
+
 function VoyageDaffaireForms() {
+  const { handleSubmit, control, reset } = useForm<FormData>();
+
+  // Define the onSubmit function with the correct type
+  const onSubmit: SubmitHandler<FormData> = (data) => {
+    console.log(data);
+    // Handle form submission, e.g., send data to API
+  };
+
   return (
     <Box
       component="form"
+      onSubmit={handleSubmit(onSubmit)}
       sx={{
         display: 'flex',
         flexDirection: 'column',
@@ -35,10 +58,18 @@ function VoyageDaffaireForms() {
         <Typography component="label" sx={{ width: '200px', color: '#000' }}>
           Nom de Contact <span style={{ color: 'red' }}>*</span>:
         </Typography>
-        <TextField
-          required
-          variant="outlined"
-          fullWidth
+        <Controller
+          name="nomContact"
+          control={control}
+          defaultValue=""
+          render={({ field }) => (
+            <TextField
+              {...field}
+              required
+              variant="outlined"
+              fullWidth
+            />
+          )}
         />
       </Box>
 
@@ -46,10 +77,18 @@ function VoyageDaffaireForms() {
         <Typography component="label" sx={{ width: '200px', color: '#000' }}>
           Poste <span style={{ color: 'red' }}>*</span>:
         </Typography>
-        <TextField
-          required
-          variant="outlined"
-          fullWidth
+        <Controller
+          name="poste"
+          control={control}
+          defaultValue=""
+          render={({ field }) => (
+            <TextField
+              {...field}
+              required
+              variant="outlined"
+              fullWidth
+            />
+          )}
         />
       </Box>
 
@@ -57,10 +96,18 @@ function VoyageDaffaireForms() {
         <Typography component="label" sx={{ width: '200px', color: '#000' }}>
           Nom d'entreprise <span style={{ color: 'red' }}>*</span>:
         </Typography>
-        <TextField
-          required
-          variant="outlined"
-          fullWidth
+        <Controller
+          name="nomEntreprise"
+          control={control}
+          defaultValue=""
+          render={({ field }) => (
+            <TextField
+              {...field}
+              required
+              variant="outlined"
+              fullWidth
+            />
+          )}
         />
       </Box>
 
@@ -68,22 +115,38 @@ function VoyageDaffaireForms() {
         <Typography component="label" sx={{ width: '200px', color: '#000' }}>
           Email <span style={{ color: 'red' }}>*</span>:
         </Typography>
-        <TextField
-          type="email"
-          required
-          variant="outlined"
-          fullWidth
+        <Controller
+          name="email"
+          control={control}
+          defaultValue=""
+          render={({ field }) => (
+            <TextField
+              {...field}
+              type="email"
+              required
+              variant="outlined"
+              fullWidth
+            />
+          )}
         />
       </Box>
 
       <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
-        <Typography component="label" sx={{ width: '200px',color:"#000" }}>
-          Tél / Whatsapp / Wechat <span style={{color:'red'}}>*</span>:
+        <Typography component="label" sx={{ width: '200px', color: '#000' }}>
+          Tél / Whatsapp / Wechat <span style={{ color: 'red' }}>*</span>:
         </Typography>
-        <TextField
-          required
-          variant="outlined"
-          fullWidth
+        <Controller
+          name="telephone"
+          control={control}
+          defaultValue=""
+          render={({ field }) => (
+            <TextField
+              {...field}
+              required
+              variant="outlined"
+              fullWidth
+            />
+          )}
         />
       </Box>
 
@@ -92,13 +155,20 @@ function VoyageDaffaireForms() {
           Wilaya Algérienne à visiter <span style={{ color: 'red' }}>*</span>:
         </Typography>
         <FormControl required fullWidth variant="outlined">
-          <Select defaultValue="Alger">
-            <MenuItem value="Alger">Alger</MenuItem>
-            <MenuItem value="Oran">Oran</MenuItem>
-            <MenuItem value="Constantine">Constantine</MenuItem>
-            <MenuItem value="Setif">Sétif</MenuItem>
-            <MenuItem value="Annaba">Annaba</MenuItem>
-          </Select>
+          <Controller
+            name="wilaya"
+            control={control}
+            defaultValue="Alger"
+            render={({ field }) => (
+              <Select {...field}>
+                <MenuItem value="Alger">Alger</MenuItem>
+                <MenuItem value="Oran">Oran</MenuItem>
+                <MenuItem value="Constantine">Constantine</MenuItem>
+                <MenuItem value="Setif">Sétif</MenuItem>
+                <MenuItem value="Annaba">Annaba</MenuItem>
+              </Select>
+            )}
+          />
         </FormControl>
       </Box>
 
@@ -106,55 +176,75 @@ function VoyageDaffaireForms() {
         Service Demandé <span style={{ color: 'red' }}>*</span>:
       </Typography>
       <FormGroup sx={{ marginLeft: '200px' }}>
-        <FormControlLabel control={<Checkbox />} label="Agence de voyage" />
-        <FormControlLabel control={<Checkbox />} label="Compagnie aérienne" />
-        <FormControlLabel control={<Checkbox />} label="Hôtel" />
-        <FormControlLabel control={<Checkbox />} label="Transport local (chauffeur, location de voiture)" />
-        <FormControlLabel control={<Checkbox />} label="Guide local" />
-        <FormControlLabel control={<Checkbox />} label="Cabinet de conseil" />
-        <FormControlLabel control={<Checkbox />} label="Avocat d'affaires" />
-        <FormControlLabel control={<Checkbox />} label="Conseiller juridique" />
-        <FormControlLabel control={<Checkbox />} label="Services de traduction/interprète" />
-        <FormControlLabel control={<Checkbox />} label="Service de sécurité" />
-        <FormControlLabel
-          control={<Checkbox />}
-          label="Autres (spécifiez)"
+        <Controller
+          name="services"
+          control={control}
+          defaultValue={[]}
+          render={({ field }) => (
+            <>
+              <FormControlLabel control={<Checkbox {...field} value="Agence de voyage" />} label="Agence de voyage" />
+              <FormControlLabel control={<Checkbox {...field} value="Compagnie aérienne" />} label="Compagnie aérienne" />
+              <FormControlLabel control={<Checkbox {...field} value="Hôtel" />} label="Hôtel" />
+              <FormControlLabel control={<Checkbox {...field} value="Transport local (chauffeur, location de voiture)" />} label="Transport local (chauffeur, location de voiture)" />
+              <FormControlLabel control={<Checkbox {...field} value="Guide local" />} label="Guide local" />
+              <FormControlLabel control={<Checkbox {...field} value="Cabinet de conseil" />} label="Cabinet de conseil" />
+              <FormControlLabel control={<Checkbox {...field} value="Avocat d'affaires" />} label="Avocat d'affaires" />
+              <FormControlLabel control={<Checkbox {...field} value="Conseiller juridique" />} label="Conseiller juridique" />
+              <FormControlLabel control={<Checkbox {...field} value="Services de traduction/interprète" />} label="Services de traduction/interprète" />
+              <FormControlLabel control={<Checkbox {...field} value="Service de sécurité" />} label="Service de sécurité" />
+              <FormControlLabel control={<Checkbox {...field} value="Autres" />} label="Autres (spécifiez)" />
+            </>
+          )}
         />
       </FormGroup>
-  
 
       <Box sx={{ display: 'flex', marginLeft: '200px' }}>
-        <TextareaAutosize
-          minRows={4}
-          placeholder="Autres (spécifiez)"
-          style={{
-            width: '100%',
-            borderRadius: '4px',
-            padding: '10px',
-            fontSize: '16px',
-            borderColor: '#c4c4c4',
-            borderWidth: 1,
-            borderStyle: 'solid',
-          }}
+        <Controller
+          name="autres"
+          control={control}
+          defaultValue=""
+          render={({ field }) => (
+            <TextareaAutosize
+              {...field}
+              minRows={4}
+              placeholder="Autres (spécifiez)"
+              style={{
+                width: '100%',
+                borderRadius: '4px',
+                padding: '10px',
+                fontSize: '16px',
+                borderColor: '#c4c4c4',
+                borderWidth: 1,
+                borderStyle: 'solid',
+              }}
+            />
+          )}
         />
       </Box>
+
       <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
-        <FormControlLabel
-          control={<Checkbox required />}
-          label={<span style={{ color: '#000' }}>Je déclare lu et accepter la politique de confidentialité <span style={{ color: 'red' }}>*</span></span>}
+        <Controller
+          name="policyAccepted"
+          control={control}
+          defaultValue={false}
+          render={({ field }) => (
+            <FormControlLabel
+              control={<Checkbox {...field} required />}
+              label={<span style={{ color: '#000' }}>Je déclare lu et accepter la politique de confidentialité <span style={{ color: 'red' }}>*</span></span>}
+            />
+          )}
         />
       </Box>
 
       <Box sx={{ display: 'flex', justifyContent: 'center', gap: 2, marginTop: 2 }}>
-        <Button variant="contained" color="success" size="large" sx={{ backgroundColor: '#27ae60' }}>
+        <Button type="submit" variant="contained" color="success" size="large" sx={{ backgroundColor: '#27ae60' }}>
           Envoyer
         </Button>
-        <Button variant="contained" color="warning" size="large" sx={{ backgroundColor: '#e67e22' }}>
+        <Button type="button" variant="contained" color="warning" size="large" sx={{ backgroundColor: '#e67e22' }} onClick={() => reset()}>
           Réinitialiser
         </Button>
       </Box>
-      </Box>
-   
+    </Box>
   );
 }
 
