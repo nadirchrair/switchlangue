@@ -2,7 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 
 const CookiesPolicy = () => {
-  const { t } = useTranslation();
+  const { t } = useTranslation('CookiesPolicy');
 
   return (
     <div>
