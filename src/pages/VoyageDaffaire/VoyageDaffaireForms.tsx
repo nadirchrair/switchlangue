@@ -15,8 +15,8 @@ import {
 } from '@mui/material';
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as Yup from 'yup';
+import { useTranslation } from 'react-i18next';
 
-// Define the shape of your form data
 interface FormData {
   nomContact: string;
   poste: string;
@@ -25,29 +25,31 @@ interface FormData {
   telephone: string;
   wilaya: string;
   services: string[];
-  autres?: string;  // Optional field
+  autres?: string;
   policyAccepted: boolean;
 }
 
-// Define the validation schema
-const schema = Yup.object().shape({
-  nomContact: Yup.string().required('Nom de Contact est requis'),
-  poste: Yup.string().required('Poste est requis'),
-  nomEntreprise: Yup.string().required('Nom d\'entreprise est requis'),
-  email: Yup.string().email('Email invalide').required('Email est requis'),
-  telephone: Yup.string()
-    .matches(/^\d{10}$/, 'Le numéro de téléphone doit contenir exactement 10 chiffres')
-    .required('Téléphone est requis'),
-  wilaya: Yup.string().required('Wilaya est requise'),
-  services: Yup.array()
-  .min(1, "Select at least one services")
-  .required("Select at least one services"),
-  autres: Yup.string().optional(),
-  policyAccepted:  Yup.boolean().default(false),
-
-});
-
 function VoyageDaffaireForms() {
+  const { t } = useTranslation('VoyageDaffaire');
+
+  const schema = Yup.object().shape({
+    nomContact: Yup.string().required(t('form.required', { field: t('form.nomContact') })),
+    poste: Yup.string().required(t('form.required', { field: t('form.poste') })),
+    nomEntreprise: Yup.string().required(t('form.required', { field: t('form.nomEntreprise') })),
+    email: Yup.string()
+      .email(t('form.invalidEmail'))
+      .required(t('form.required', { field: t('form.email') })),
+    telephone: Yup.string()
+      .matches(/^\d{10}$/, t('form.phoneLength'))
+      .required(t('form.required', { field: t('form.telephone') })),
+      wilaya: Yup.string().required(t('form.required')),
+  services: Yup.array()
+  .min(1, t('form.selectService'))
+  .required(t('form.required')),
+  autres: Yup.string().optional(),
+  policyAccepted:  Yup.boolean().default(false)
+  });
+
   const { handleSubmit, control, reset, formState: { errors } } = useForm<FormData>({
     resolver: yupResolver(schema),
   });
@@ -74,12 +76,12 @@ function VoyageDaffaireForms() {
       }}
     >
       <Typography variant="h5" align="center" gutterBottom sx={{ color: '#000' }}>
-        Voyage d'affaire en Algérie
+        {t('form.title')}
       </Typography>
 
       <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
         <Typography component="label" sx={{ width: '200px', color: '#000' }}>
-          Nom de Contact <span style={{ color: 'red' }}>*</span>:
+          {t('form.nomContact')} <span style={{ color: 'red' }}>*</span>:
         </Typography>
         <Controller
           name="nomContact"
@@ -100,7 +102,7 @@ function VoyageDaffaireForms() {
 
       <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
         <Typography component="label" sx={{ width: '200px', color: '#000' }}>
-          Poste <span style={{ color: 'red' }}>*</span>:
+          {t('form.poste')} <span style={{ color: 'red' }}>*</span>:
         </Typography>
         <Controller
           name="poste"
@@ -121,7 +123,7 @@ function VoyageDaffaireForms() {
 
       <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
         <Typography component="label" sx={{ width: '200px', color: '#000' }}>
-          Nom d'entreprise <span style={{ color: 'red' }}>*</span>:
+          {t('form.nomEntreprise')} <span style={{ color: 'red' }}>*</span>:
         </Typography>
         <Controller
           name="nomEntreprise"
@@ -142,7 +144,7 @@ function VoyageDaffaireForms() {
 
       <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
         <Typography component="label" sx={{ width: '200px', color: '#000' }}>
-          Email <span style={{ color: 'red' }}>*</span>:
+          {t('form.email')} <span style={{ color: 'red' }}>*</span>:
         </Typography>
         <Controller
           name="email"
@@ -164,7 +166,7 @@ function VoyageDaffaireForms() {
 
       <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
         <Typography component="label" sx={{ width: '200px', color: '#000' }}>
-          Tél / Whatsapp / Wechat <span style={{ color: 'red' }}>*</span>:
+          {t('form.telephone')} <span style={{ color: 'red' }}>*</span>:
         </Typography>
         <Controller
           name="telephone"
@@ -186,7 +188,7 @@ function VoyageDaffaireForms() {
 
       <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
         <Typography component="label" sx={{ width: '200px', color: '#000' }}>
-          Wilaya Algérienne à visiter <span style={{ color: 'red' }}>*</span>:
+          {t('form.wilaya')} <span style={{ color: 'red' }}>*</span>:
         </Typography>
         <FormControl required fullWidth variant="outlined" error={!!errors.wilaya}>
           <Controller
@@ -212,7 +214,7 @@ function VoyageDaffaireForms() {
       </Box>
 
       <Typography variant="h6" align="left" gutterBottom sx={{ color: '#000' }}>
-        Service Demandé <span style={{ color: 'red' }}>*</span>:
+        {t('form.serviceDemande')} <span style={{ color: 'red' }}>*</span>:
       </Typography>
       <FormGroup sx={{ marginLeft: '200px' }}>
         <Controller
@@ -406,7 +408,7 @@ function VoyageDaffaireForms() {
                     }}
                   />
                 }
-                label="Autres (spécifiez)"
+                label={t('form.autres')}
               />
             </>
           )}
@@ -427,7 +429,7 @@ function VoyageDaffaireForms() {
             <TextareaAutosize
               {...field}
               minRows={4}
-              placeholder="Autres (spécifiez)"
+              placeholder={t('form.autres')}
               style={{
                 width: '100%',
                 borderRadius: '4px',
@@ -450,7 +452,7 @@ function VoyageDaffaireForms() {
           render={({ field }) => (
             <FormControlLabel
               control={<Checkbox {...field} required />}
-              label={<span style={{ color: '#000' }}>Je déclare avoir lu et accepter la politique de confidentialité <span style={{ color: 'red' }}>*</span></span>}
+              label={<span style={{ color: '#000' }}>{t('form.policyAccepted')} <span style={{ color: 'red' }}>*</span></span>}
             />
           )}
         />
@@ -463,10 +465,10 @@ function VoyageDaffaireForms() {
 
       <Box sx={{ display: 'flex', justifyContent: 'center', gap: 2, marginTop: 2 }}>
         <Button type="submit" variant="contained" color="success" size="large" sx={{ backgroundColor: '#27ae60' }}>
-          Envoyer
+          {t('form.submit')}
         </Button>
         <Button type="button" variant="contained" color="warning" size="large" sx={{ backgroundColor: '#e67e22' }} onClick={() => reset()}>
-          Réinitialiser
+          {t('form.reset')}
         </Button>
       </Box>
     </Box>

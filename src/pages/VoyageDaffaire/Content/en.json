@@ -1,0 +1,21 @@
+{
+    "form": {
+      "title": "Business Trip in Algeria",
+      "nomContact": "Contact Name",
+      "poste": "Position",
+      "nomEntreprise": "Company Name",
+      "email": "Email",
+      "telephone": "Phone / Whatsapp / Wechat",
+      "wilaya": "Algerian Wilaya to Visit",
+      "serviceDemande": "Requested Service",
+      "autres": "Others (specify)",
+      "policyAccepted": "I declare that I have read and accept the privacy policy",
+      "submit": "Send",
+      "reset": "Reset",
+      "required": "is required",
+      "invalidEmail": "Invalid email",
+      "phoneLength": "Phone number must be exactly 10 digits",
+      "selectService": "Select at least one service"
+    }
+  }
+  

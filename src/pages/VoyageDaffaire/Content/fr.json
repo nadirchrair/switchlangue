@@ -1,0 +1,21 @@
+{
+    "form": {
+      "title": "Voyage d'affaire en Algérie",
+      "nomContact": "Nom de Contact",
+      "poste": "Poste",
+      "nomEntreprise": "Nom d'entreprise",
+      "email": "Email",
+      "telephone": "Tél / Whatsapp / Wechat",
+      "wilaya": "Wilaya Algérienne à visiter",
+      "serviceDemande": "Service Demandé",
+      "autres": "Autres (spécifiez)",
+      "policyAccepted": "Je déclare avoir lu et accepter la politique de confidentialité",
+      "submit": "Envoyer",
+      "reset": "Réinitialiser",
+      "required": "est requis",
+      "invalidEmail": "Email invalide",
+      "phoneLength": "Le numéro de téléphone doit contenir exactement 10 chiffres",
+      "selectService": "Select at least one service"
+    }
+  }
+  

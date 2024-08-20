@@ -6,7 +6,7 @@ import TermsAndConditions from './pages/GCU/TermsAndConditions';
 import Gtsc from './pages/GTSC/Gtsc';
 import PrivacyPolicyViewer from './Privacypolicy/PrivacyPolicyViewer';
 import CookiesPolicy from './pages/CookiesPolicy/CookiesPolicy';
-import VoyageDaffaireForms from './VoyageDaffaireForms';
+import VoyageDaffaireForms from './pages/VoyageDaffaire/VoyageDaffaireForms';
 
 function App() {
   return (
