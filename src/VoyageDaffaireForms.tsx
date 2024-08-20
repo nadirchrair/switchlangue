@@ -40,8 +40,8 @@ const schema = Yup.object().shape({
     .required('Téléphone est requis'),
   wilaya: Yup.string().required('Wilaya est requise'),
   services: Yup.array()
-  .min(1, "Select at least one interest")
-  .required("Select at least one interest"),
+  .min(1, "Select at least one services")
+  .required("Select at least one services"),
   autres: Yup.string().optional(),
   policyAccepted:  Yup.boolean().default(false),
 
