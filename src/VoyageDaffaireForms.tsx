@@ -3,7 +3,6 @@ import { useForm, Controller, SubmitHandler } from 'react-hook-form';
 import {
   TextField,
   FormControl,
-  InputLabel,
   Select,
   MenuItem,
   Checkbox,
@@ -14,6 +13,8 @@ import {
   Box,
   TextareaAutosize,
 } from '@mui/material';
+import { yupResolver } from '@hookform/resolvers/yup';
+import * as Yup from 'yup';
 
 // Define the shape of your form data
 interface FormData {
@@ -24,17 +25,39 @@ interface FormData {
   telephone: string;
   wilaya: string;
   services: string[];
-  autres: string;
+  autres?: string;  // Optional field
   policyAccepted: boolean;
 }
 
-function VoyageDaffaireForms() {
-  const { handleSubmit, control, reset } = useForm<FormData>();
+// Define the validation schema
+const schema = Yup.object().shape({
+  nomContact: Yup.string().required('Nom de Contact est requis'),
+  poste: Yup.string().required('Poste est requis'),
+  nomEntreprise: Yup.string().required('Nom d\'entreprise est requis'),
+  email: Yup.string().email('Email invalide').required('Email est requis'),
+  telephone: Yup.string()
+    .matches(/^\d{10}$/, 'Le numéro de téléphone doit contenir exactement 10 chiffres')
+    .required('Téléphone est requis'),
+  wilaya: Yup.string().required('Wilaya est requise'),
+  services: Yup.array()
+  .min(1, "Select at least one interest")
+  .required("Select at least one interest"),
+  autres: Yup.string().optional(),
+  policyAccepted:  Yup.boolean().default(false),
 
-  // Define the onSubmit function with the correct type
-  const onSubmit: SubmitHandler<FormData> = (data) => {
-    console.log(data);
-    // Handle form submission, e.g., send data to API
+});
+
+function VoyageDaffaireForms() {
+  const { handleSubmit, control, reset, formState: { errors } } = useForm<FormData>({
+    resolver: yupResolver(schema),
+  });
+
+  const onSubmit: SubmitHandler<FormData> = async (data) => {
+    try {
+      console.log("Form Submitted", data);
+    } catch (error) {
+      console.log("Error submitting form", error);
+    }
   };
 
   return (
@@ -68,6 +91,8 @@ function VoyageDaffaireForms() {
               required
               variant="outlined"
               fullWidth
+              error={!!errors.nomContact}
+              helperText={errors.nomContact?.message}
             />
           )}
         />
@@ -87,6 +112,8 @@ function VoyageDaffaireForms() {
               required
               variant="outlined"
               fullWidth
+              error={!!errors.poste}
+              helperText={errors.poste?.message}
             />
           )}
         />
@@ -106,6 +133,8 @@ function VoyageDaffaireForms() {
               required
               variant="outlined"
               fullWidth
+              error={!!errors.nomEntreprise}
+              helperText={errors.nomEntreprise?.message}
             />
           )}
         />
@@ -126,6 +155,8 @@ function VoyageDaffaireForms() {
               required
               variant="outlined"
               fullWidth
+              error={!!errors.email}
+              helperText={errors.email?.message}
             />
           )}
         />
@@ -144,7 +175,10 @@ function VoyageDaffaireForms() {
               {...field}
               required
               variant="outlined"
+              type="text"
               fullWidth
+              error={!!errors.telephone}
+              helperText={errors.telephone?.message}
             />
           )}
         />
@@ -154,7 +188,7 @@ function VoyageDaffaireForms() {
         <Typography component="label" sx={{ width: '200px', color: '#000' }}>
           Wilaya Algérienne à visiter <span style={{ color: 'red' }}>*</span>:
         </Typography>
-        <FormControl required fullWidth variant="outlined">
+        <FormControl required fullWidth variant="outlined" error={!!errors.wilaya}>
           <Controller
             name="wilaya"
             control={control}
@@ -169,6 +203,11 @@ function VoyageDaffaireForms() {
               </Select>
             )}
           />
+          {errors.wilaya && (
+            <Typography variant="caption" color="error">
+              {errors.wilaya.message}
+            </Typography>
+          )}
         </FormControl>
       </Box>
 
@@ -180,22 +219,203 @@ function VoyageDaffaireForms() {
           name="services"
           control={control}
           defaultValue={[]}
-          render={({ field }) => (
+          render={({ field: { onChange, value } }) => (
             <>
-              <FormControlLabel control={<Checkbox {...field} value="Agence de voyage" />} label="Agence de voyage" />
-              <FormControlLabel control={<Checkbox {...field} value="Compagnie aérienne" />} label="Compagnie aérienne" />
-              <FormControlLabel control={<Checkbox {...field} value="Hôtel" />} label="Hôtel" />
-              <FormControlLabel control={<Checkbox {...field} value="Transport local (chauffeur, location de voiture)" />} label="Transport local (chauffeur, location de voiture)" />
-              <FormControlLabel control={<Checkbox {...field} value="Guide local" />} label="Guide local" />
-              <FormControlLabel control={<Checkbox {...field} value="Cabinet de conseil" />} label="Cabinet de conseil" />
-              <FormControlLabel control={<Checkbox {...field} value="Avocat d'affaires" />} label="Avocat d'affaires" />
-              <FormControlLabel control={<Checkbox {...field} value="Conseiller juridique" />} label="Conseiller juridique" />
-              <FormControlLabel control={<Checkbox {...field} value="Services de traduction/interprète" />} label="Services de traduction/interprète" />
-              <FormControlLabel control={<Checkbox {...field} value="Service de sécurité" />} label="Service de sécurité" />
-              <FormControlLabel control={<Checkbox {...field} value="Autres" />} label="Autres (spécifiez)" />
+              <FormControlLabel
+                control={
+                  <Checkbox
+                    value="Agence de voyage"
+                    checked={value.includes('Agence de voyage')}
+                    onChange={(e) => {
+                      const checked = e.target.checked;
+                      onChange(
+                        checked
+                          ? [...value, e.target.value]
+                          : value.filter((v) => v !== e.target.value)
+                      );
+                    }}
+                  />
+                }
+                label="Agence de voyage"
+              />
+              <FormControlLabel
+                control={
+                  <Checkbox
+                    value="Compagnie aérienne"
+                    checked={value.includes('Compagnie aérienne')}
+                    onChange={(e) => {
+                      const checked = e.target.checked;
+                      onChange(
+                        checked
+                          ? [...value, e.target.value]
+                          : value.filter((v) => v !== e.target.value)
+                      );
+                    }}
+                  />
+                }
+                label="Compagnie aérienne"
+              />
+              <FormControlLabel
+                control={
+                  <Checkbox
+                    value="Hôtel"
+                    checked={value.includes('Hôtel')}
+                    onChange={(e) => {
+                      const checked = e.target.checked;
+                      onChange(
+                        checked
+                          ? [...value, e.target.value]
+                          : value.filter((v) => v !== e.target.value)
+                      );
+                    }}
+                  />
+                }
+                label="Hôtel"
+              />
+              <FormControlLabel
+                control={
+                  <Checkbox
+                    value="Transport local (chauffeur, location de voiture)"
+                    checked={value.includes('Transport local (chauffeur, location de voiture)')}
+                    onChange={(e) => {
+                      const checked = e.target.checked;
+                      onChange(
+                        checked
+                          ? [...value, e.target.value]
+                          : value.filter((v) => v !== e.target.value)
+                      );
+                    }}
+                  />
+                }
+                label="Transport local (chauffeur, location de voiture)"
+              />
+              <FormControlLabel
+                control={
+                  <Checkbox
+                    value="Guide local"
+                    checked={value.includes('Guide local')}
+                    onChange={(e) => {
+                      const checked = e.target.checked;
+                      onChange(
+                        checked
+                          ? [...value, e.target.value]
+                          : value.filter((v) => v !== e.target.value)
+                      );
+                    }}
+                  />
+                }
+                label="Guide local"
+              />
+              <FormControlLabel
+                control={
+                  <Checkbox
+                    value="Cabinet de conseil"
+                    checked={value.includes('Cabinet de conseil')}
+                    onChange={(e) => {
+                      const checked = e.target.checked;
+                      onChange(
+                        checked
+                          ? [...value, e.target.value]
+                          : value.filter((v) => v !== e.target.value)
+                      );
+                    }}
+                  />
+                }
+                label="Cabinet de conseil"
+              />
+              <FormControlLabel
+                control={
+                  <Checkbox
+                    value="Avocat d'affaires"
+                    checked={value.includes('Avocat d\'affaires')}
+                    onChange={(e) => {
+                      const checked = e.target.checked;
+                      onChange(
+                        checked
+                          ? [...value, e.target.value]
+                          : value.filter((v) => v !== e.target.value)
+                      );
+                    }}
+                  />
+                }
+                label="Avocat d'affaires"
+              />
+              <FormControlLabel
+                control={
+                  <Checkbox
+                    value="Conseiller juridique"
+                    checked={value.includes('Conseiller juridique')}
+                    onChange={(e) => {
+                      const checked = e.target.checked;
+                      onChange(
+                        checked
+                          ? [...value, e.target.value]
+                          : value.filter((v) => v !== e.target.value)
+                      );
+                    }}
+                  />
+                }
+                label="Conseiller juridique"
+              />
+              <FormControlLabel
+                control={
+                  <Checkbox
+                    value="Services de traduction/interprète"
+                    checked={value.includes('Services de traduction/interprète')}
+                    onChange={(e) => {
+                      const checked = e.target.checked;
+                      onChange(
+                        checked
+                          ? [...value, e.target.value]
+                          : value.filter((v) => v !== e.target.value)
+                      );
+                    }}
+                  />
+                }
+                label="Services de traduction/interprète"
+              />
+              <FormControlLabel
+                control={
+                  <Checkbox
+                    value="Service de sécurité"
+                    checked={value.includes('Service de sécurité')}
+                    onChange={(e) => {
+                      const checked = e.target.checked;
+                      onChange(
+                        checked
+                          ? [...value, e.target.value]
+                          : value.filter((v) => v !== e.target.value)
+                      );
+                    }}
+                  />
+                }
+                label="Service de sécurité"
+              />
+              <FormControlLabel
+                control={
+                  <Checkbox
+                    value="Autres"
+                    checked={value.includes('Autres')}
+                    onChange={(e) => {
+                      const checked = e.target.checked;
+                      onChange(
+                        checked
+                          ? [...value, e.target.value]
+                          : value.filter((v) => v !== e.target.value)
+                      );
+                    }}
+                  />
+                }
+                label="Autres (spécifiez)"
+              />
             </>
           )}
         />
+        {errors.services && (
+          <Typography variant="caption" color="error" sx={{ marginLeft: '200px' }}>
+            {errors.services.message}
+          </Typography>
+        )}
       </FormGroup>
 
       <Box sx={{ display: 'flex', marginLeft: '200px' }}>
@@ -230,10 +450,15 @@ function VoyageDaffaireForms() {
           render={({ field }) => (
             <FormControlLabel
               control={<Checkbox {...field} required />}
-              label={<span style={{ color: '#000' }}>Je déclare lu et accepter la politique de confidentialité <span style={{ color: 'red' }}>*</span></span>}
+              label={<span style={{ color: '#000' }}>Je déclare avoir lu et accepter la politique de confidentialité <span style={{ color: 'red' }}>*</span></span>}
             />
           )}
         />
+        {errors.policyAccepted && (
+          <Typography variant="caption" color="error">
+            {errors.policyAccepted.message}
+          </Typography>
+        )}
       </Box>
 
       <Box sx={{ display: 'flex', justifyContent: 'center', gap: 2, marginTop: 2 }}>
